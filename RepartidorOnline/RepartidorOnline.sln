@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.UI", "RepartidorOnline.UI\RepartidorOnline.UI.csproj", "{217CF76F-1E9C-4B9A-9686-ABB87A8C3D58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Application.DTO", "RepartidorOnline.Application.DTO\RepartidorOnline.Application.DTO.csproj", "{88463ABF-4201-4FD6-BC11-724636CF15A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Application.Interfaces", "RepartidorOnline.Application.Interfaces\RepartidorOnline.Application.Interfaces.csproj", "{BE4D7D74-3765-4C01-AA57-A1C98DD163C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Infraestructure", "RepartidorOnline.Infraestructure\RepartidorOnline.Infraestructure.csproj", "{1A072FAA-497A-47E8-BCCE-85AB6A374B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Application", "RepartidorOnline.Application\RepartidorOnline.Application.csproj", "{69173DD4-E745-4545-AF8E-FE8211D2F0B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{217CF76F-1E9C-4B9A-9686-ABB87A8C3D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217CF76F-1E9C-4B9A-9686-ABB87A8C3D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217CF76F-1E9C-4B9A-9686-ABB87A8C3D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88463ABF-4201-4FD6-BC11-724636CF15A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88463ABF-4201-4FD6-BC11-724636CF15A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88463ABF-4201-4FD6-BC11-724636CF15A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88463ABF-4201-4FD6-BC11-724636CF15A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4D7D74-3765-4C01-AA57-A1C98DD163C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4D7D74-3765-4C01-AA57-A1C98DD163C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4D7D74-3765-4C01-AA57-A1C98DD163C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4D7D74-3765-4C01-AA57-A1C98DD163C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A072FAA-497A-47E8-BCCE-85AB6A374B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A072FAA-497A-47E8-BCCE-85AB6A374B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A072FAA-497A-47E8-BCCE-85AB6A374B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A072FAA-497A-47E8-BCCE-85AB6A374B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
