@@ -15,7 +15,10 @@ namespace RepartidorOnline.UI
                         "~/Scripts/jquery.validate*"));
 
             bundles.Add(new StyleBundle("~/Content/main/css").Include(
-                      "~/Content/css/StyleMain.min.css"));
+                      "~/Content/css/StyleMain.min.css",
+                      "~/lib/font-awesome/css/all.min.css"));
+
+
 
             //// Use the development version of Modernizr to develop with and learn from. Then, when you're
             //// ready for production, use the build tool at https://modernizr.com to pick only the tests you need.

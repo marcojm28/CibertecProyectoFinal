@@ -1,41 +1,165 @@
-﻿body {
+﻿@import "Helper/StyleColor";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&display=swap');
+
+body {
     /*background-color:#808080;*/
     height: 100vh;
-    margin:0;
+    margin: 0;
+
+    .base-button-main {
+        border: none;
+        outline: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Lobster', cursive;
+        
+    }
 }
 
 .grid-container-main {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-areas: "header-main header-main" "nav-main  content-main" "nav-main  footer-main";
-    grid-auto-columns: auto 85vw;
-    grid-auto-rows: 1fr 7fr 2fr;
+    grid-template-areas: "header-main header-main" "content-main  content-main" "footer-main footer-main";
+    grid-auto-columns: auto;
+    /*grid-auto-rows: 0.7fr 10fr 1.5fr;*/
+    grid-auto-rows: 55px auto 140px;
 
     .header-main {
-        background: #ff0000;
+        background: $header-color;
         grid-area: header-main;
-        padding:10px;
+        padding: 8px;
+
+        .header-main-content {
+            display: grid;
+            grid-template-columns: 1.5fr 3fr 12fr 1.5fr;
+            grid-template-rows: 100%;
+            height: 100%;
+            grid-column-gap: 10px;
+        }
     }
 
     .content-main {
-        background: #ffd800;
+        background: $content-color;
         grid-area: content-main;
     }
 
     .footer-main {
-        background: #00ff21;
+        background: $base-color;
         grid-area: footer-main;
     }
 
     .nav-main {
         background: #0026ff;
         grid-area: nav-main;
+        width: 0px;
+    }
+}
+
+.header-main-logo {
+    grid-row: 1 / span 1;
+    /*font-family: 'Alfa Slab One', cursive;
+    font-family: 'Lobster', cursive;*/
+    p {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        /*color: antiquewhite;*/
+        font-size: 30px;
+        background: -webkit-linear-gradient(#ff9259,#FFC107);
+        font-weight: bold;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
-    /*nav:hover {
-        width: 0;
-    }*/
+    img {
+        height: 100%;
+        width: 96%;
+    }
+}
+
+.neon{
+    color:#fff;
+    text-shadow: 0 0 20px #e58845;
+}
+
+.header-search-box {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 86% 14%;
+    background-color: $content-color;
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
+
+    i {
+        color: $base-color-second;
+    }
+
+    .header-input-search {
+        border: none;
+        outline: none;
+        /*width: 85%;*/
+        height: 100%;
+        background-color: transparent;
+    }
+
+    .header-button-search {
+        /*border: none;
+        outline: none;*/
+        /*width: 10%;*/
+        height: 100%;
+        background-color: transparent;
+    }
+}
+
+.header-shopping-cart {
+    display: grid;
+    justify-items: right;
+
+    button {
+        background: $base-color;
+        height: 100%;
+        border-radius: 10px;
+        transition: ease-out 0.3s;
+
+        i {
+            color: $header-color;
+        }
+    }
+}
+
+.header-login-button {
+    display: grid;
+    justify-items: center;
+
+    button {
+        width: 90%;
+        background: $base-color;
+        border-radius: 10px;
+        color: $header-color;
+        transition: ease-out 0.3s;
+        
+    }
+
+    
+}
+
+
+.btn-hover:hover {
+    box-shadow: inset 300px 0 0 0 $header-color;
+    border-style: solid;
+    border-color: $base-color-second;
+    color: $base-color-second;
+    border-width: 2px;
+    cursor: pointer;
+
+    i {
+        color: $base-color-second;
+    }
+}
+/*.header-search-box:focus {
+    box-shadow: 0px 0px 0px 2px #ff0000;
+    transition: 0.5s;
 }
 
 .menu-hamburger {
@@ -65,6 +189,13 @@
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.show-nav{
+    width:100%;
+}
 
+.button-main{
+    border-radius:8px;
+
+}*/
 
 
