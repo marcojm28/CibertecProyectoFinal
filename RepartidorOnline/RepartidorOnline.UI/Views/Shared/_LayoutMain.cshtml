@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>_LayoutMain</title>
     @Styles.Render("~/Content/main/css")
+    @Styles.Render("~/Content/bootstrap")
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
 </head>
 <body>
@@ -21,14 +22,20 @@
                     <img src="~/Content/img/logo-header.PNG" />
                     @*<p class="">ServEntrega</p>*@
                 </div>
-                <div class="header-search-box">
-                    <input class="header-input-search" type="text" placeholder="Busca Cualquier Producto" name="" value="" />
-                    <button class="header-button-search base-button-main">
-                        <i class="fas fa-search fa-lg"></i>
-                    </button>
-                    
-
+                @*<div class="header-search-box">
+            <input class="header-input-search" type="text" placeholder="Busca Cualquier Producto" name="" value="" />
+            <button class="header-button-search base-button-main">
+                <i class="fas fa-search fa-lg"></i>
+            </button>
+        </div>*@
+            <div class="input-group header-search-box">
+                <input class="header-input-search form-control" type="text" placeholder="Busca Cualquier Producto" name="" value="" />
+                <div class="input-group-append header-button-search base-button-main">
+                    <button class="btn" type="button"><i class="fas fa-search fa-lg"></i></button>
                 </div>
+            </div>
+
+
                 <div class="header-shopping-cart">
                     <button class="base-button-main btn-hover">
                         <i class="fas fa-shopping-basket fa-lg"></i>
@@ -48,6 +55,8 @@
         <footer class="footer-main">
         </footer>
     </div>
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", false)
     <script>
 
     </script>

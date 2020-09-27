@@ -65,9 +65,9 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 86% 14%;
-  background-color: #E9E8E7;
+  /*background-color: $content-color;*/
   border: none;
-  border-radius: 8px;
+  /*border-radius: 8px;*/
   padding-left: 8px; }
   .header-search-box i {
     color: #CA3648; }
@@ -76,13 +76,15 @@ body {
     outline: none;
     /*width: 85%;*/
     height: 100%;
-    background-color: transparent; }
+    background-color: #E9E8E7; }
   .header-search-box .header-button-search {
     /*border: none;
         outline: none;*/
     /*width: 10%;*/
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
     height: 100%;
-    background-color: transparent; }
+    background-color: #E9E8E7; }
 
 .header-shopping-cart {
   display: grid;
