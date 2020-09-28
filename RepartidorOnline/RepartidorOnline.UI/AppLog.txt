@@ -1,0 +1,2 @@
+2020-09-27 19:03:28,755 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Home, Action: Index,Hora de inicio: 27/09/2020 07:03:28 p. m.
+2020-09-27 19:03:28,777 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Home, Action: Index,Hora de fin: 27/09/2020 07:03:28 p. m.
