@@ -1,0 +1,5 @@
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.DTO\bin\Debug\RepartidorOnline.Application.DTO.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.DTO\bin\Debug\RepartidorOnline.Application.DTO.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.DTO\obj\Debug\RepartidorOnline.Application.DTO.csproj.CoreCompileInputs.cache
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.DTO\obj\Debug\RepartidorOnline.Application.DTO.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.DTO\obj\Debug\RepartidorOnline.Application.DTO.pdb

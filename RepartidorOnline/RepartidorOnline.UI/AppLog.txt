@@ -1,2 +1,38 @@
 2020-09-27 19:03:28,755 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Home, Action: Index,Hora de inicio: 27/09/2020 07:03:28 p. m.
 2020-09-27 19:03:28,777 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Home, Action: Index,Hora de fin: 27/09/2020 07:03:28 p. m.
+2020-09-28 21:09:49,538 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Home, Action: Index,Hora de inicio: 28/09/2020 09:09:49 p. m.
+2020-09-28 21:09:49,564 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Home, Action: Index,Hora de fin: 28/09/2020 09:09:49 p. m.
+2020-09-28 21:10:33,367 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: login,Hora de inicio: 28/09/2020 09:10:33 p. m.
+2020-09-28 21:11:30,364 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Home, Action: Index,Hora de inicio: 28/09/2020 09:11:30 p. m.
+2020-09-28 21:11:30,389 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Home, Action: Index,Hora de fin: 28/09/2020 09:11:30 p. m.
+2020-09-28 21:11:36,939 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: login,Hora de inicio: 28/09/2020 09:11:36 p. m.
+2020-09-28 21:12:58,538 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: login,Hora de fin: 28/09/2020 09:12:58 p. m.
+2020-09-28 21:12:58,540 [6] ERROR RepartidorOnline.UI.Filters.HandleCustomError System.ObjectDisposedException: No se puede obtener acceso al objeto desechado.
+   en RepartidorOnline.Application.UseCases.UsuarioUseCase.ConvertPasswordToSha512(String password) en D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application\UseCases\UsuarioUseCase.cs:línea 80
+   en RepartidorOnline.Application.UseCases.UsuarioUseCase.ValidarUsuario(LoginRequestDto loginRequestDto) en D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application\UseCases\UsuarioUseCase.cs:línea 32
+   en RepartidorOnline.UI.Controllers.SeguridadController.Login() en D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\Controllers\SeguridadController.cs:línea 23
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_0.<InvokeActionMethodFilterAsynchronouslyRecursive>b__0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2020-09-28 21:13:01,578 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: login,Hora de inicio: 28/09/2020 09:13:01 p. m.
+2020-09-28 21:13:08,896 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: login,Hora de fin: 28/09/2020 09:13:08 p. m.
+2020-09-28 21:13:11,739 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: login,Hora de inicio: 28/09/2020 09:13:11 p. m.
+2020-09-28 21:16:05,059 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: login,Hora de fin: 28/09/2020 09:16:05 p. m.
+2020-09-28 21:19:34,602 [11] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Home, Action: Index,Hora de inicio: 28/09/2020 09:19:34 p. m.
+2020-09-28 21:19:34,627 [11] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Home, Action: Index,Hora de fin: 28/09/2020 09:19:34 p. m.
+2020-09-28 21:21:15,759 [12] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: login,Hora de inicio: 28/09/2020 09:21:15 p. m.
+2020-09-28 21:22:15,531 [12] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: login,Hora de fin: 28/09/2020 09:22:15 p. m.

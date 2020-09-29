@@ -1,0 +1,6 @@
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Domain\bin\Debug\RepartidorOnline.Domain.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Domain\bin\Debug\RepartidorOnline.Domain.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Domain\obj\Debug\RepartidorOnline.Domain.csproj.CoreCompileInputs.cache
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Domain\obj\Debug\RepartidorOnline.Domain.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Domain\obj\Debug\RepartidorOnline.Domain.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Domain\obj\Debug\RepartidorOnline.Domain.csprojAssemblyReference.cache

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RepartidorOnline.UI.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,6 +20,8 @@ namespace RepartidorOnline.UI
 
             //log4net
             log4net.Config.XmlConfigurator.Configure();
+
+            DIConfig.Configure();
         }
     }
 }

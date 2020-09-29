@@ -1,0 +1,11 @@
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\bin\Debug\RepartidorOnline.Application.Interfaces.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\bin\Debug\RepartidorOnline.Application.Interfaces.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\bin\Debug\RepartidorOnline.Application.DTO.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\bin\Debug\RepartidorOnline.Domain.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\bin\Debug\RepartidorOnline.Application.DTO.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\bin\Debug\RepartidorOnline.Domain.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\obj\Debug\RepartidorOnline.Application.Interfaces.csprojAssemblyReference.cache
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\obj\Debug\RepartidorOnline.Application.Interfaces.csproj.CoreCompileInputs.cache
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\obj\Debug\RepartidorOnline.Application.Interfaces.csproj.CopyComplete
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\obj\Debug\RepartidorOnline.Application.Interfaces.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Application.Interfaces\obj\Debug\RepartidorOnline.Application.Interfaces.pdb

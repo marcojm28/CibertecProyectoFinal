@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Infraestru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Application", "RepartidorOnline.Application\RepartidorOnline.Application.csproj", "{69173DD4-E745-4545-AF8E-FE8211D2F0B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepartidorOnline.Domain", "RepartidorOnline.Domain\RepartidorOnline.Domain.csproj", "{148DF964-17B5-4FC1-935B-B595C4BEA718}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69173DD4-E745-4545-AF8E-FE8211D2F0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148DF964-17B5-4FC1-935B-B595C4BEA718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148DF964-17B5-4FC1-935B-B595C4BEA718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148DF964-17B5-4FC1-935B-B595C4BEA718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148DF964-17B5-4FC1-935B-B595C4BEA718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
