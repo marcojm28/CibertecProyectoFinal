@@ -28,10 +28,10 @@ namespace RepartidorOnline.Application.UseCases
 
             if (usuario != null) 
             {
-                string password = string.Empty;
-                password = ConvertPasswordToSha512(usuario.Contrasena);
+                //string password = string.Empty;
+                //password = ConvertPasswordToSha512(usuario.Contrasena);
 
-                if (password == loginRequestDto.Contrasena) 
+                if (usuario.Contrasena == loginRequestDto.Contrasena) 
                 {
                     response = LoginMapping(usuario);
 

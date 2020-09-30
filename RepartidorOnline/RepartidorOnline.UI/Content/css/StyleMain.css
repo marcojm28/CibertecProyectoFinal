@@ -4,7 +4,7 @@ body {
   /*background-color:#808080;*/
   height: 100vh;
   margin: 0; }
-  body .base-button-main {
+  body button {
     border: none;
     outline: none;
     font-family: 'Alfa Slab One', cursive;
@@ -104,8 +104,24 @@ body {
     width: 90%;
     background: linear-gradient(130deg, #FF9800 0, #CA3648 70%);
     border-radius: 10px;
-    color: #FAFAF8;
+    color: #FAFAF8 !important;
     transition: ease-out 0.3s; }
+
+.btn-base-main {
+  /*width: 90%;*/
+  background: linear-gradient(130deg, #FF9800 0, #CA3648 70%);
+  /*border-radius: 10px;*/
+  transition: ease-out 0.3s;
+  color: #FAFAF8 !important; }
+
+.btn-base-main:hover {
+  box-shadow: inset 300px 0 0 0 #FAFAF8;
+  border-style: solid;
+  border-color: #CA3648;
+  color: #CA3648;
+  border-width: 2px;
+  cursor: pointer;
+  color: #CA3648 !important; }
 
 .btn-hover:hover {
   box-shadow: inset 300px 0 0 0 #FAFAF8;
@@ -113,9 +129,8 @@ body {
   border-color: #CA3648;
   color: #CA3648;
   border-width: 2px;
-  cursor: pointer; }
-  .btn-hover:hover i {
-    color: #CA3648; }
+  cursor: pointer;
+  color: #CA3648 !important; }
 
 /*.header-search-box:focus {
     box-shadow: 0px 0px 0px 2px #ff0000;

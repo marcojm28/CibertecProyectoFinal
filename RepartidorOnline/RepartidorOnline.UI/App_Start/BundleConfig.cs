@@ -28,6 +28,10 @@ namespace RepartidorOnline.UI
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/appscripts")
+                    .IncludeDirectory("~/Scripts/App/lib", "*.js")
+                    .IncludeDirectory("~/Scripts/App/paginas", "*.js"));
+
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                       "~/Content/bootstrap.css"));
         }

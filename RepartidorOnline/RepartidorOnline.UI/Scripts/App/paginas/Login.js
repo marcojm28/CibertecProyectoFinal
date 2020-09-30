@@ -2,26 +2,31 @@
 
 app.pagina.Login = app.pagina.Login|| (function () {
 
-    var URL = { busquedaProductos: '/Producto/BuscarProductos' }
+    var URL = { LoginController: '/Seguridad/Login' }
 
-    //function BuscarProducto() {
-    //    var nombre = $('.txt-busqueda-productos').val();
+    function IniciarSesion() {
 
-    //    $.post(URL.busquedaProductos, { Nombre: nombre })
-    //        .done(function response(response) {
-    //            $('.main-content').html(response);
-    //        });
-    //}
+        //$.get(URL.LoginController)
+        //    .done(function response(response) {
+        //        $('.main-content').html(response);
+        //    });
 
-    //function InitApp() {
-    //    //$('.btn-buscar').on('click', BuscarProducto);
-    //    $('.txt-busqueda-productos').on('keyup', BuscarProducto);
-    //}
+        $.get(URL.LoginController, function (response) {
+            $('.content-main').html(response);
+        });
+
+        //$.get(URL.LoginController);
+    }
+
+    function InitApp() {
+        $('#btnLoginMain').on('click', IniciarSesion);
+        //$('.txt-busqueda-productos').on('keyup', BuscarProducto);
+    }
 
 
     return {
-        //BuscarProducto: BuscarProducto,
-        //InitApp: InitApp
+        //IniciarSesion: IniciarSesion,
+        InitApp: InitApp
 
     }
 })();

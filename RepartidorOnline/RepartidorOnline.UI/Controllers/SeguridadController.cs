@@ -1,8 +1,10 @@
 ﻿using RepartidorOnline.Application.DTO.Users;
 using RepartidorOnline.Application.Interfaces.UseCases;
+using RepartidorOnline.UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 
@@ -20,9 +22,31 @@ namespace RepartidorOnline.UI.Controllers
         // GET: Seguridad
         public ActionResult Login()
         {
-            var usuario = _usuarioUseCase.ValidarUsuario(new LoginRequestDto() {NombreUsuario = "marcojm28",Contrasena = "73127743" });
-
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Login(LoginViewModel loginViewModel)
+        {
+            var loginResponse = _usuarioUseCase.ValidarUsuario(new LoginRequestDto() { NombreUsuario = loginViewModel.Login, Contrasena = loginViewModel.Password });
+
+            if (loginResponse != null)
+            {
+                var identity = new ClaimsIdentity("ApplicationCookie");
+                //obtiene configuración de startup
+                var context = Request.GetOwinContext();
+                var authManager = context.Authentication;
+                //Se realiza el login
+                authManager.SignIn(identity);
+
+                return Redirect(loginViewModel.ReturnUrl ?? "~/");
+            }
+            else
+            {
+                return View(loginViewModel);
+            }
+        }
+
+
     }
 }

@@ -1,0 +1,17 @@
+﻿@import "Helper/StyleColor";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&display=swap');
+
+body {
+}
+
+.content-login
+{
+    display:grid;
+    grid-template-columns:1fr;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #CA3648;
+}

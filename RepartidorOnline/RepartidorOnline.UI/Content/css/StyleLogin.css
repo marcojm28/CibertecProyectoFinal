@@ -1,0 +1,10 @@
+﻿/*$base-color: linear-gradient(130deg,#ffd14e 0,#ef5a5c 70%);*/
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&display=swap");
+.content-login {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #CA3648; }

@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
 
-    .base-button-main {
+    button {
         border: none;
         outline: none;
         font-family: 'Alfa Slab One', cursive;
@@ -138,14 +138,29 @@ body {
         width: 90%;
         background: $base-color;
         border-radius: 10px;
-        color: $header-color;
+        color: $header-color !important;
         transition: ease-out 0.3s;
-        
     }
-
-    
 }
 
+.btn-base-main {
+    /*width: 90%;*/
+    background: $base-color;
+    /*border-radius: 10px;*/
+    transition: ease-out 0.3s;
+    color: $header-color !important;
+
+}
+
+.btn-base-main:hover {
+    box-shadow: inset 300px 0 0 0 $header-color;
+    border-style: solid;
+    border-color: $base-color-second;
+    color: $base-color-second;
+    border-width: 2px;
+    cursor: pointer;
+    color: $base-color-second !important;
+}
 
 .btn-hover:hover {
     box-shadow: inset 300px 0 0 0 $header-color;
@@ -154,10 +169,7 @@ body {
     color: $base-color-second;
     border-width: 2px;
     cursor: pointer;
-
-    i {
-        color: $base-color-second;
-    }
+    color: $base-color-second !important;
 }
 /*.header-search-box:focus {
     box-shadow: 0px 0px 0px 2px #ff0000;
