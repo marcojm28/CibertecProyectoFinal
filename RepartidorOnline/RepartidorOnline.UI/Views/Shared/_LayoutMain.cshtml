@@ -1,4 +1,4 @@
-﻿
+﻿@using RepartidorOnline.UI.Helpers
 @{
     Layout = null;
 }
@@ -19,8 +19,8 @@
 
             <div class="header-main-content">
                 <div class="header-main-logo">
-                    <img src="~/Content/img/logo-header.PNG" />
-                    @*<p class="">ServEntrega</p>*@
+                    @*<img src="~/Content/img/logo-header.PNG" />*@
+                    <h3 class="text-header-main-logo">ServEntrega</h3>
                 </div>
                 @*<div class="header-search-box">
                         <input class="header-input-search" type="text" placeholder="Busca Cualquier Producto" name="" value="" />
@@ -42,9 +42,26 @@
                     </button>
                 </div>
                 <div class="header-login-button">
-                    <button class="btn-hover base-button-main btn" id="btnLoginMain">
-                        Iniciar Sesión
-                    </button>
+
+                    @if (!SecurityHelpers.IsLogged())
+                    {
+
+                        using (Html.BeginForm("Login", "Seguridad", new { }, FormMethod.Get))
+                        {
+                            <button class="btn-hover base-button-main btn" id="btnLoginMain">
+                                Iniciar Sesión <i class="fas fa-sign-in-alt"></i>
+                            </button>
+                        }
+                    }
+                    else
+                    {
+                        using (Html.BeginForm("Logout", "Seguridad", new { }, FormMethod.Post))
+                        {
+                        <button class="btn-hover base-button-main btn" id="btnLogoutMain">
+                            Cerrar Sesión <i class="fas fa-sign-out-alt"></i>
+                        </button>
+                        }
+                    }
                 </div>
             </div>
         </header>

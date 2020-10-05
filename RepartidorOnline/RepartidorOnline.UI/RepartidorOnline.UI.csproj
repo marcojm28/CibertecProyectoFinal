@@ -167,6 +167,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\SecurityHelpers.cs" />
+    <Compile Include="Models\CreateUserViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -251,6 +253,7 @@
     <Content Include="lib\font-awesome\webfonts\fa-solid-900.ttf" />
     <Content Include="lib\font-awesome\webfonts\fa-solid-900.woff" />
     <Content Include="lib\font-awesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="Scripts\App\lib\Common.js" />
     <Content Include="Scripts\App\paginas\Login.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -401,7 +404,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\App\lib\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

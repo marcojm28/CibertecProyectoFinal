@@ -2,24 +2,23 @@
 
 app.pagina.Login = app.pagina.Login|| (function () {
 
-    var URL = { LoginController: '/Seguridad/Login' }
+    var URL = { Logout: '/Seguridad/Logout' }
 
-    function IniciarSesion() {
+    function CerrarSesion() {
 
-        //$.get(URL.LoginController)
-        //    .done(function response(response) {
-        //        $('.main-content').html(response);
-        //    });
+        $.post(URL.Logout).done(function (response) {
+            if (response) {
+                window.location.href = "";
+            }
 
-        $.get(URL.LoginController, function (response) {
-            $('.content-main').html(response);
         });
 
-        //$.get(URL.LoginController);
+        
+        
     }
 
     function InitApp() {
-        $('#btnLoginMain').on('click', IniciarSesion);
+        //$('#btnLogoutMain').on('click', CerrarSesion);
         //$('.txt-busqueda-productos').on('keyup', BuscarProducto);
     }
 

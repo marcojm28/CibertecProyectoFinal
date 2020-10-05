@@ -1,5 +1,6 @@
 ﻿using RepartidorOnline.Application.DTO.Users;
 using RepartidorOnline.Application.Interfaces.UseCases;
+using RepartidorOnline.UI.Helpers;
 using RepartidorOnline.UI.Models;
 using System;
 using System.Collections.Generic;
@@ -32,7 +33,14 @@ namespace RepartidorOnline.UI.Controllers
 
             if (loginResponse != null)
             {
-                var identity = new ClaimsIdentity("ApplicationCookie");
+                var claims = SecurityHelpers.CreateUserClaims(
+                    $"{loginResponse.Nombres} {loginResponse.Apellidos}",
+                    $"{loginResponse.NombreUsuario}",
+                    $"{loginResponse.Correo}",
+                    $"{loginResponse.IdUsuario}"
+                    );
+
+                var identity = new ClaimsIdentity(claims, "ApplicationCookie");
                 //obtiene configuración de startup
                 var context = Request.GetOwinContext();
                 var authManager = context.Authentication;
@@ -47,6 +55,16 @@ namespace RepartidorOnline.UI.Controllers
             }
         }
 
+        [HttpPost]
+        public ActionResult Logout()
+        {
+            var context = Request.GetOwinContext();
+            var authManager = context.Authentication;
+            authManager.SignOut();
 
-    }
+            return Redirect("~/");
+        }
+
+
+        }
 }

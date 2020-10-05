@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&display=swap");
 .content-login {
   display: grid;
+  grid-template-columns: 20% auto;
+  margin: 15px; }
+
+.card-header {
+  display: grid;
   grid-template-columns: 1fr; }
 
 .social_icon span {
   font-size: 60px;
-  margin-left: 10px;
+  margin-right: 10px;
   color: #CA3648; }
