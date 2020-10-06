@@ -13,3 +13,6 @@ D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\R
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Infraestructure\obj\Debug\RepartidorOnline.Infraestructure.csproj.CopyComplete
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Infraestructure\obj\Debug\RepartidorOnline.Infraestructure.dll
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Infraestructure\obj\Debug\RepartidorOnline.Infraestructure.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Infraestructure\bin\Debug\Dapper.SimpleCRUD.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Infraestructure\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.Infraestructure\bin\Debug\Dapper.SimpleCRUD.xml

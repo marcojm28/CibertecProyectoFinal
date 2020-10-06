@@ -1,31 +1,48 @@
 ﻿var app = app || {}; app.pagina = app.pagina || {};
 
-app.pagina.Login = app.pagina.Login|| (function () {
+app.pagina.Login = app.pagina.Login || (function () {
 
-    var URL = { Logout: '/Seguridad/Logout' }
+    var URL = { CreateUser: '/Seguridad/CreateUser' }
 
-    function CerrarSesion() {
+    function CrearUsuarioModal() {
+        app.lib.common.ShowModal("Regístrate en ServEntrega", URL.CreateUser, RespuestaGuardar, "IdModalCreateUser");
+    }
 
-        $.post(URL.Logout).done(function (response) {
+    function CrearUsuario() {
+
+        var form = $('#frmCreateUser');
+
+        $.post(URL.CreateUser, form.serialize())
+            .done(function (response) {
             if (response) {
-                window.location.href = "";
+                app.lib.common.CloseModal(response, "IdModalCreateUser");
+                alert("Los datos se grabaron correctamente");
+
+            } else {
+                alert("Error al guardar la información");
             }
 
+        }).fail(function (xhr, status, error) {
+                alert(xhr.responseText);
         });
-
-        
-        
     }
 
     function InitApp() {
-        //$('#btnLogoutMain').on('click', CerrarSesion);
-        //$('.txt-busqueda-productos').on('keyup', BuscarProducto);
+        $('#IdCreateUserLink').on('click', CrearUsuarioModal);
+    }
+
+    function InitModalCreateUser() {
+        $('#btnCreateUser').on('click', CrearUsuario);
+    }
+
+
+    function RespuestaGuardar() {
+
     }
 
 
     return {
-        //IniciarSesion: IniciarSesion,
-        InitApp: InitApp
-
+        InitApp: InitApp,
+        InitModalCreateUser: InitModalCreateUser
     }
 })();

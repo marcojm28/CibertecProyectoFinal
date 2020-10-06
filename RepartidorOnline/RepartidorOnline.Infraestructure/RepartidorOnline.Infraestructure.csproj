@@ -34,9 +34,15 @@
     <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
     </Reference>
+    <Reference Include="Dapper.SimpleCRUD, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.SimpleCRUD.2.2.0.1\lib\netstandard2.0\Dapper.SimpleCRUD.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +52,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\DatabaseUtil.cs" />
+    <Compile Include="Entities\UsuarioEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
     <Compile Include="Repositories\UsuarioRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RepartidorOnline.Application.DTO\RepartidorOnline.Application.DTO.csproj">
+      <Project>{88463ABF-4201-4FD6-BC11-724636CF15A3}</Project>
+      <Name>RepartidorOnline.Application.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RepartidorOnline.Application.Interfaces\RepartidorOnline.Application.Interfaces.csproj">
       <Project>{BE4D7D74-3765-4C01-AA57-A1C98DD163C2}</Project>
       <Name>RepartidorOnline.Application.Interfaces</Name>

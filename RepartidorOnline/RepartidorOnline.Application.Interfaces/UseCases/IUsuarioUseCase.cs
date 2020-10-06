@@ -10,5 +10,7 @@ namespace RepartidorOnline.Application.Interfaces.UseCases
     public interface IUsuarioUseCase
     {
         LoginResponseDto ValidarUsuario(LoginRequestDto loginRequestDto);
+
+        CrearUsuarioResponseDTO CrearUsuario(CrearUsuarioRequestDTO crearUsuarioRequestDTO);
     }
 }

@@ -15,7 +15,7 @@ namespace RepartidorOnline.UI.Controllers
     {
         private readonly IUsuarioUseCase _usuarioUseCase;
 
-        public SeguridadController(IUsuarioUseCase usuarioUseCase) 
+        public SeguridadController(IUsuarioUseCase usuarioUseCase)
         {
             this._usuarioUseCase = usuarioUseCase;
         }
@@ -65,6 +65,40 @@ namespace RepartidorOnline.UI.Controllers
             return Redirect("~/");
         }
 
-
+        [HttpGet]
+        public ActionResult CreateUser() 
+        {
+            return PartialView("_CreateUser");
         }
+
+        [HttpPost]
+        public ActionResult CreateUser(CreateUserViewModel createUserViewModel)
+        {
+            bool retorno = false;
+            int nuevoIdProducto = 0;
+
+            var usuario = _usuarioUseCase.CrearUsuario(new CrearUsuarioRequestDTO { 
+                NombreUsuario = createUserViewModel.NombreUsuario,
+                Apellidos = createUserViewModel.Apellidos,
+                Ciudad = createUserViewModel.Ciudad,
+                Contrasena = createUserViewModel.Contrasena,
+                Correo = createUserViewModel.Correo,
+                DireccionDomicilio = createUserViewModel.DireccionDomicilio,
+                Distrito = createUserViewModel.Distrito,
+                Nombres = createUserViewModel.Nombres,
+                Telefono = createUserViewModel.Telefono,
+                IdRol = 2
+            });
+
+            nuevoIdProducto = usuario.IdUsuarioNuevo;
+
+            if (nuevoIdProducto > 0)
+            {
+                retorno = true;
+            }
+
+            return Json(retorno);
+        }
+
+    }
 }

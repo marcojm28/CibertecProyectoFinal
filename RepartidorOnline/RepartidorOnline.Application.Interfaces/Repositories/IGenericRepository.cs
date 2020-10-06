@@ -9,7 +9,7 @@ namespace RepartidorOnline.Application.Interfaces.Repositories
     public interface IGenericRepository<TEntity>
             where TEntity : class
     {
-        void Add(TEntity entity);
+        TEntity Add(TEntity entity);
         void Update(TEntity entity);
         void Remove(TEntity entity);
         TEntity Get(int id);

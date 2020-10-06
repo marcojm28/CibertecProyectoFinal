@@ -1,4 +1,5 @@
 ﻿using RepartidorOnline.Application.Interfaces.Repositories;
+using RepartidorOnline.Domain.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace RepartidorOnline.Infraestructure.Repositories
     public class GenericRepository<TEntity> : IGenericRepository<TEntity>
             where TEntity : class
     {
-        public void Add(TEntity entity)
+        public TEntity Add(TEntity entity)
         {
-
+            return null;
         }
 
         public TEntity Get(int id)

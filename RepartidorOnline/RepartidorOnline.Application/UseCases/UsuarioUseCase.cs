@@ -42,6 +42,23 @@ namespace RepartidorOnline.Application.UseCases
             return response;
         }
 
+
+        public CrearUsuarioResponseDTO CrearUsuario(CrearUsuarioRequestDTO crearUsuarioRequestDTO)
+        {
+            CrearUsuarioResponseDTO response = new CrearUsuarioResponseDTO();
+
+            var usuarioValidacion = _usuarioRepository.Get(crearUsuarioRequestDTO.NombreUsuario);
+
+            if (usuarioValidacion == null)
+            {
+                 var usuario = _usuarioRepository.Add(crearUsuarioRequestDTO);
+
+                response.IdUsuarioNuevo = usuario.IdUsuario;
+            }
+
+            return response;
+        }
+
         #region Métodos internos
         private LoginResponseDto LoginMapping(Usuario usuario)
         {
@@ -89,7 +106,6 @@ namespace RepartidorOnline.Application.UseCases
             string hex = BitConverter.ToString(passwordByte);
             return hex.Replace("-", "");
         }
-
         #endregion
     }
 }
