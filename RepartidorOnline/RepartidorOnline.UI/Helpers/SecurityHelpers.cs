@@ -20,6 +20,21 @@ namespace RepartidorOnline.UI.Helpers
 
         }
 
+        public static List<Claim> GetClaimByType(string type)
+        {
+            var identity = (ClaimsIdentity)HttpContext.Current.User.Identity;
+            var claims = identity.Claims.Where(item => item.Type == type).ToList();
+
+            return claims;
+        }
+
+        public static string GetUserFullName()
+        {
+            var claimValue = GetClaimByType(ClaimTypes.Name).FirstOrDefault()?.Value;
+
+            return claimValue;
+        }
+
         public static bool IsLogged()
         {
             return HttpContext.Current.User.Identity.IsAuthenticated;

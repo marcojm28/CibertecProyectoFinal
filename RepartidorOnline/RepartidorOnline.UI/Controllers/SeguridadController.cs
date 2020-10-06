@@ -1,5 +1,6 @@
 ﻿using RepartidorOnline.Application.DTO.Users;
 using RepartidorOnline.Application.Interfaces.UseCases;
+using RepartidorOnline.UI.Filters;
 using RepartidorOnline.UI.Helpers;
 using RepartidorOnline.UI.Models;
 using System;
@@ -27,6 +28,7 @@ namespace RepartidorOnline.UI.Controllers
         }
 
         [HttpPost]
+        [ValidModelFilter]
         public ActionResult Login(LoginViewModel loginViewModel)
         {
             var loginResponse = _usuarioUseCase.ValidarUsuario(new LoginRequestDto() { NombreUsuario = loginViewModel.Login, Contrasena = loginViewModel.Password });
@@ -72,12 +74,12 @@ namespace RepartidorOnline.UI.Controllers
         }
 
         [HttpPost]
+        [ValidModelFilter]
         public ActionResult CreateUser(CreateUserViewModel createUserViewModel)
         {
-            bool retorno = false;
-            int nuevoIdProducto = 0;
+            var response = new CrearUsuarioResponseDTO();
 
-            var usuario = _usuarioUseCase.CrearUsuario(new CrearUsuarioRequestDTO { 
+                response = _usuarioUseCase.CrearUsuario(new CrearUsuarioRequestDTO { 
                 NombreUsuario = createUserViewModel.NombreUsuario,
                 Apellidos = createUserViewModel.Apellidos,
                 Ciudad = createUserViewModel.Ciudad,
@@ -90,14 +92,8 @@ namespace RepartidorOnline.UI.Controllers
                 IdRol = 2
             });
 
-            nuevoIdProducto = usuario.IdUsuarioNuevo;
 
-            if (nuevoIdProducto > 0)
-            {
-                retorno = true;
-            }
-
-            return Json(retorno);
+            return Json(response);
         }
 
     }

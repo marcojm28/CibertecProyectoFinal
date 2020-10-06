@@ -161,6 +161,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SeguridadController.cs" />
+    <Compile Include="Controllers\TiendaController.cs" />
     <Compile Include="Filters\HandleCustomError.cs" />
     <Compile Include="Filters\LogginFilterAttribute.cs" />
     <Compile Include="Filters\ValidModelFilterAttribute.cs" />
@@ -189,10 +190,13 @@
       <DependentUpon>StyleMain.css</DependentUpon>
     </Content>
     <Content Include="Content\img\logo-header.PNG" />
+    <Content Include="Content\img\LogoMakro.png" />
     <Content Include="Content\StyleMain.css" />
     <Content Include="Content\StyleMain.min.css">
       <DependentUpon>StyleMain.css</DependentUpon>
     </Content>
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
@@ -278,6 +282,8 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -356,6 +362,8 @@
     <Content Include="Scripts\src\utils\setAttributes.js" />
     <Content Include="Scripts\src\utils\setStyles.js" />
     <Content Include="Scripts\src\utils\setupEventListeners.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="Scripts\umd\popper-utils.js" />
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
@@ -402,6 +410,7 @@
     <Content Include="Views\Seguridad\Login.cshtml" />
     <Content Include="Scss\StyleLogin.scss" />
     <Content Include="Views\Seguridad\_CreateUser.cshtml" />
+    <Content Include="Views\Tienda\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

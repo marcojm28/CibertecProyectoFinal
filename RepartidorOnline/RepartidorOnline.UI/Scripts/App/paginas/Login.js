@@ -14,16 +14,16 @@ app.pagina.Login = app.pagina.Login || (function () {
 
         $.post(URL.CreateUser, form.serialize())
             .done(function (response) {
-            if (response) {
-                app.lib.common.CloseModal(response, "IdModalCreateUser");
-                alert("Los datos se grabaron correctamente");
+                if (response.IndicadorRespuesta == 1) {
+                    app.lib.common.CloseModal(response, "IdModalCreateUser");
+                    app.lib.common.ShowMessageSuccess(response.MensajeValidacion);
 
             } else {
-                alert("Error al guardar la información");
+                    app.lib.common.ShowMessageError(response.MensajeValidacion);
             }
 
         }).fail(function (xhr, status, error) {
-                alert(xhr.responseText);
+            app.lib.common.ShowMessageError(xhr.responseText);
         });
     }
 

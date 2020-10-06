@@ -28,7 +28,7 @@ body {
     padding: 8px; }
     .grid-container-main .header-main .header-main-content {
       display: grid;
-      grid-template-columns: 1.5fr 3fr 12fr 2fr;
+      grid-template-columns: 1.5fr 3fr 10fr 0.5fr 2fr;
       grid-template-rows: 100%;
       height: 100%;
       grid-column-gap: 10px; }
@@ -91,6 +91,12 @@ body {
     border-bottom-right-radius: 0.25rem;
     height: 100%;
     background-color: #E9E8E7; }
+
+.header-user-text {
+  display: grid;
+  justify-items: right;
+  align-items: center;
+  color: #CA3648; }
 
 .header-shopping-cart {
   display: grid;

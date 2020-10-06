@@ -32,8 +32,14 @@ namespace RepartidorOnline.UI
                     .IncludeDirectory("~/Scripts/App/lib", "*.js")
                     .IncludeDirectory("~/Scripts/App/paginas", "*.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/toastr").Include(
+                      "~/Scripts/toastr.min.js"));
+
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                       "~/Content/bootstrap.css"));
+
+            bundles.Add(new StyleBundle("~/Content/toastr").Include(
+                      "~/Content/toastr.min.css"));
         }
     }
 }

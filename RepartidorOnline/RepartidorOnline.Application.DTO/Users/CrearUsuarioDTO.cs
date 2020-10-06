@@ -32,5 +32,9 @@ namespace RepartidorOnline.Application.DTO.Users
     public class CrearUsuarioResponseDTO
     {
         public int IdUsuarioNuevo { get; set; }
+
+        public int IndicadorRespuesta{ get; set; }
+
+        public string MensajeValidacion { get; set; }
     }
 }

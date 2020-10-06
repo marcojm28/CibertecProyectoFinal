@@ -1,4 +1,5 @@
-﻿using RepartidorOnline.Application.DTO.Users;
+﻿using RepartidorOnline.Application.Common;
+using RepartidorOnline.Application.DTO.Users;
 using RepartidorOnline.Application.Interfaces.Repositories;
 using RepartidorOnline.Application.Interfaces.UseCases;
 using RepartidorOnline.Domain.Users;
@@ -51,9 +52,19 @@ namespace RepartidorOnline.Application.UseCases
 
             if (usuarioValidacion == null)
             {
-                 var usuario = _usuarioRepository.Add(crearUsuarioRequestDTO);
+                var usuario = _usuarioRepository.Add(crearUsuarioRequestDTO);
 
                 response.IdUsuarioNuevo = usuario.IdUsuario;
+
+                if (response.IdUsuarioNuevo > 0)
+                {
+                    response.IndicadorRespuesta = Enumerados.RespuestaCrearUsuario.IndicadorUsuarioCreado;
+                    response.MensajeValidacion = Enumerados.RespuestaCrearUsuario.MensajeUsuarioCreado;
+                }
+            }
+            else 
+            {
+                response.MensajeValidacion = Enumerados.RespuestaCrearUsuario.MensajeUsuarioExistente;
             }
 
             return response;

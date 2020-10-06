@@ -11,6 +11,7 @@
     <title>_LayoutMain</title>
     @Styles.Render("~/Content/main/css")
     @Styles.Render("~/Content/bootstrap")
+    @Styles.Render("~/Content/toastr")
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
 </head>
 <body>
@@ -35,9 +36,14 @@
                     </div>
                 </div>
 
-
+                <div class="header-user-text">
+                    @if (SecurityHelpers.IsLogged()) 
+                    {
+                    <h4>Bienvenido @SecurityHelpers.GetUserFullName()</h4>
+                    }
+                </div>
                 <div class="header-shopping-cart">
-                    <button class="base-button-main btn-hover">
+                    <button class="base-button-main btn-hover btn">
                         <i class="fas fa-shopping-basket fa-lg"></i>
                     </button>
                 </div>
@@ -57,9 +63,9 @@
                     {
                         using (Html.BeginForm("Logout", "Seguridad", new { }, FormMethod.Post))
                         {
-                        <button class="btn-hover base-button-main btn" id="btnLogoutMain">
-                            Cerrar Sesión <i class="fas fa-sign-out-alt"></i>
-                        </button>
+                            <button class="btn-hover base-button-main btn" id="btnLogoutMain">
+                                Cerrar Sesión <i class="fas fa-sign-out-alt"></i>
+                            </button>
                         }
                     }
                 </div>
@@ -74,6 +80,7 @@
     </div>
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/appscripts")
+    @Scripts.Render("~/bundles/toastr")
     @RenderSection("scripts", false)
     <script type="text/javascript">
         $(document).ready(app.pagina.Login.InitApp);
