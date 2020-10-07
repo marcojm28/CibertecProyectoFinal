@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RepartidorOnline.Application.DTO.Stores;
+using RepartidorOnline.Application.Interfaces.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +10,17 @@ namespace RepartidorOnline.UI.Controllers
 {
     public class TiendaController : Controller
     {
-        // GET: Tienda
+        private readonly ITiendaRepository _tiendaRepository;
+        public TiendaController(ITiendaRepository tiendaRepository) 
+        {
+            this._tiendaRepository = tiendaRepository;
+        }
+
         public ActionResult Index()
         {
-            return View();
+            var listaTiendas = _tiendaRepository.ObtenerTiendas(new ObtenerTiendasRequestDto { });
+
+            return View(listaTiendas);
         }
     }
 }

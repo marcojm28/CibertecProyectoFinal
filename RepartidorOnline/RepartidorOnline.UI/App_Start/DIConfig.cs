@@ -23,6 +23,7 @@ namespace RepartidorOnline.UI.App_Start
             container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
             container.Register<IUsuarioRepository, UsuarioRepository>(Lifestyle.Scoped);
             container.Register<IUsuarioUseCase, UsuarioUseCase>(Lifestyle.Scoped);
+            container.Register<ITiendaRepository, TiendaRepository>(Lifestyle.Scoped);
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
             container.RegisterMvcIntegratedFilterProvider();
             container.Verify();

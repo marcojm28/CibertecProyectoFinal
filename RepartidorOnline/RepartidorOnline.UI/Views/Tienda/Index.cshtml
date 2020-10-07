@@ -1,7 +1,33 @@
-﻿
+﻿@model List<RepartidorOnline.Application.DTO.Stores.ObtenerTiendasResponseDto>
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<head>
+    <link href="~/Content/css/StyleTienda.min.css" rel="stylesheet" />
+</head>
+
+<div class="content-tienda">
+
+    <div>
+        <h2 class="titulo-tienda">Tiendas disponibles</h2>
+        <hr class="my-1">
+    </div>
+
+    <div class="content-tienda-botones">
+
+        @foreach (var item in Model) {
+
+            <div class="item-tienda">
+                <button id="id-tienda-@item.IdTienda" class="btn item-tienda-boton @item.ClaseColor">
+                    <span>
+                        <img src="~/Content/img/@item.ImagenSrc" />
+                    </span>
+                </button>
+
+            </div>
+        }
+
+    </div>
+</div>
 

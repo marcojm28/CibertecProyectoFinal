@@ -1,0 +1,64 @@
+﻿@import "Helper/StyleColor";
+
+body {
+}
+
+.content-tienda {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% auto;
+    grid-gap: 10px;
+    padding: 10px;
+
+    .titulo-tienda {
+    }
+
+    .content-tienda-botones {
+        display: grid;
+        grid-template-columns: repeat(4,23%);
+        grid-auto-rows: 40%;
+        justify-content: center;
+        /*align-content: center;*/
+        grid-gap: 10px;
+
+        .item-tienda {
+            /*grid-row: 2 / 3;*/
+            button {
+                height: 100%;
+                width: 100%;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+            .color-tienda-naranja {
+                background: #ff6a00;
+            }
+
+            .color-tienda-rojo {
+                background: #ff0000;
+            }
+
+            .color-tienda-verde {
+                background: #238a30;
+            }
+
+            .color-tienda-amarillo {
+                background: #ffd800;
+            }
+
+            .color-tienda-verde-oscuro {
+                background: #003016;
+            }
+
+            .color-tienda-rojo-cereza {
+                background: #E10613
+            }
+        }
+    }
+
+
+}
+

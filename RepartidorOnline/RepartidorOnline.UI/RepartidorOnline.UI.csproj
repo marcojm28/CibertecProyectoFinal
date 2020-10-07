@@ -189,8 +189,17 @@
     <Content Include="Content\css\StyleMain.min.css">
       <DependentUpon>StyleMain.css</DependentUpon>
     </Content>
+    <Content Include="Content\css\StyleTienda.css" />
+    <Content Include="Content\css\StyleTienda.min.css">
+      <DependentUpon>StyleTienda.css</DependentUpon>
+    </Content>
+    <Content Include="Content\img\CasaIdeas.png" />
     <Content Include="Content\img\logo-header.PNG" />
     <Content Include="Content\img\LogoMakro.png" />
+    <Content Include="Content\img\Metro.png" />
+    <Content Include="Content\img\PlazaVea.png" />
+    <Content Include="Content\img\Vivanda.png" />
+    <Content Include="Content\img\Wong.png" />
     <Content Include="Content\StyleMain.css" />
     <Content Include="Content\StyleMain.min.css">
       <DependentUpon>StyleMain.css</DependentUpon>
@@ -380,6 +389,12 @@
     <Content Include="Scss\StyleMain.min.css">
       <DependentUpon>StyleMain.css</DependentUpon>
     </Content>
+    <Content Include="Scss\StyleTienda.css">
+      <DependentUpon>StyleTienda.scss</DependentUpon>
+    </Content>
+    <Content Include="Scss\StyleTienda.min.css">
+      <DependentUpon>StyleTienda.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -411,6 +426,7 @@
     <Content Include="Scss\StyleLogin.scss" />
     <Content Include="Views\Seguridad\_CreateUser.cshtml" />
     <Content Include="Views\Tienda\Index.cshtml" />
+    <Content Include="Scss\StyleTienda.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
