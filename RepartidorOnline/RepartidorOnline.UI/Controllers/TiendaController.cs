@@ -22,5 +22,15 @@ namespace RepartidorOnline.UI.Controllers
 
             return View(listaTiendas);
         }
+
+        [HttpPost]
+        public ActionResult BuscarTiendas(ObtenerTiendasRequestDto obtenerTiendasRequestDto)
+        {
+            var listaTiendas = _tiendaRepository.ObtenerTiendas(new ObtenerTiendasRequestDto {
+                NombreTienda = obtenerTiendasRequestDto .NombreTienda
+            });
+
+            return PartialView("_BuscarTiendas", listaTiendas);
+        }
     }
 }

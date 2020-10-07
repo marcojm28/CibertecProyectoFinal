@@ -19,10 +19,30 @@ namespace RepartidorOnline.Infraestructure.Repositories
             var tiendas = new List<TiendaEntity>();
             using (var db = DatabaseUtil.CreateDBConnection())
             {
-                tiendas = db.GetList<TiendaEntity>(new { EstadoRegistro = 1 }).ToList();
+                if (string.IsNullOrWhiteSpace(obtenerTiendasRequestDto.NombreTienda))
+                {
+                    tiendas = db.GetList<TiendaEntity>(new { EstadoRegistro = 1 }).ToList();
+                }
+                else {
+                    var paramNombre = string.IsNullOrWhiteSpace(obtenerTiendasRequestDto.NombreTienda) ? null : $"%{obtenerTiendasRequestDto.NombreTienda.Trim()}%";
+                    tiendas = db.GetList<TiendaEntity>("where EstadoRegistro = 1 and NombreTienda like @NombreTienda", new { NombreTienda = paramNombre }).ToList();
+
+                }
+                
             }
 
-            foreach (var item in tiendas) 
+            ListaTiendas.AddRange(MapingTiendasEntity(tiendas));
+
+            return ListaTiendas;
+        }
+
+        #region Métodos internos
+
+        private List<ObtenerTiendasResponseDto> MapingTiendasEntity(List<TiendaEntity> tiendas) 
+        {
+            var ListaTiendas = new List<ObtenerTiendasResponseDto>();
+
+            foreach (var item in tiendas)
             {
                 ObtenerTiendasResponseDto obj = new ObtenerTiendasResponseDto()
                 {
@@ -38,5 +58,7 @@ namespace RepartidorOnline.Infraestructure.Repositories
 
             return ListaTiendas;
         }
+
+        #endregion
     }
 }

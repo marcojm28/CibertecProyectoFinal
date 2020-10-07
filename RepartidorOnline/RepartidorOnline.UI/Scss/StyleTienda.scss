@@ -6,8 +6,8 @@ body {
 .content-tienda {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% auto;
-    grid-gap: 10px;
+    grid-template-rows: 65px auto;
+    /*grid-gap: 10px;*/
     padding: 10px;
 
     .titulo-tienda {
@@ -15,23 +15,45 @@ body {
 
     .content-tienda-botones {
         display: grid;
-        grid-template-columns: repeat(4,23%);
-        grid-auto-rows: 40%;
+        grid-template-columns: repeat(4,20vw);
+        grid-auto-rows: 20vh;
         justify-content: center;
         /*align-content: center;*/
         grid-gap: 10px;
 
+        .item-tienda figure:hover img {
+            /*height: 100%;
+            width: 100%;*/
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
         .item-tienda {
             /*grid-row: 2 / 3;*/
+            height: 100%;
+            width: 100%;
+
             button {
                 height: 100%;
                 width: 100%;
             }
 
-            img {
+            figure {
+                /*display:grid;*/
                 height: 100%;
                 width: 100%;
+                margin-top: 4%;
             }
+
+            img {
+                height: 80%;
+                width: 80%;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+            }
+
 
             .color-tienda-naranja {
                 background: #ff6a00;
@@ -58,7 +80,11 @@ body {
             }
         }
     }
+}
 
-
+.item-tienda-boton:hover {
+    /*height: 100%;
+    width: 100%;*/
+    background:#ffffff;
 }
 
