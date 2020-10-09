@@ -32,5 +32,11 @@ namespace RepartidorOnline.UI.Controllers
 
             return PartialView("_BuscarTiendas", listaTiendas);
         }
+
+        public ActionResult ProductosPorTienda(int IdTienda)
+        {
+            return Json(IdTienda);
+        }
+
     }
 }

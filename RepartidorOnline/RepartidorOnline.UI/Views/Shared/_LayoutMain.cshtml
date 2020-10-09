@@ -12,7 +12,6 @@
     @Styles.Render("~/Content/main/css")
     @Styles.Render("~/Content/bootstrap")
     @Styles.Render("~/Content/toastr")
-    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <div class="grid-container-main">
@@ -23,12 +22,6 @@
                     @*<img src="~/Content/img/logo-header.PNG" />*@
                     <h3 class="text-header-main-logo">ServEntrega</h3>
                 </div>
-                @*<div class="header-search-box">
-                        <input class="header-input-search" type="text" placeholder="Busca Cualquier Producto" name="" value="" />
-                        <button class="header-button-search base-button-main">
-                            <i class="fas fa-search fa-lg"></i>
-                        </button>
-                    </div>*@
                 <div class="input-group header-search-box">
                     <input class="header-input-search form-control" id="idTxtBusqueda" type="text" placeholder="Busca Cualquier Producto" name="" value="" />
                     <div class="input-group-append header-button-search base-button-main">
@@ -37,9 +30,9 @@
                 </div>
 
                 <div class="header-user-text">
-                    @if (SecurityHelpers.IsLogged()) 
+                    @if (SecurityHelpers.IsLogged())
                     {
-                    <h4>Bienvenido @SecurityHelpers.GetUserFullName()</h4>
+                        <h4>Bienvenido @SecurityHelpers.GetUserFullName()</h4>
                     }
                 </div>
                 <div class="header-shopping-cart">
@@ -78,13 +71,15 @@
         <footer class="footer-main">
         </footer>
     </div>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/appscripts")
     @Scripts.Render("~/bundles/toastr")
     @RenderSection("scripts", false)
     <script type="text/javascript">
+        var baseApplicationPath = '@Url.Content("~/")';
         $(document).ready(app.pagina.Login.InitApp);
-
     </script>
 </body>
 </html>
