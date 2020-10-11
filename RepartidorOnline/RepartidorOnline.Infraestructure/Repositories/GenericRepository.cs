@@ -1,5 +1,7 @@
-﻿using RepartidorOnline.Application.Interfaces.Repositories;
+﻿using Dapper;
+using RepartidorOnline.Application.Interfaces.Repositories;
 using RepartidorOnline.Domain.Users;
+using RepartidorOnline.Infraestructure.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,24 +13,43 @@ namespace RepartidorOnline.Infraestructure.Repositories
     public class GenericRepository<TEntity> : IGenericRepository<TEntity>
             where TEntity : class
     {
-        public TEntity Add(TEntity entity)
+        public TKey Add<TKey>(TEntity entity)
         {
-            return null;
+            TKey retorno;
+            using (var db = DatabaseUtil.CreateDBConnection())
+            {
+                retorno = db.Insert<TKey, TEntity>(entity);
+            }
+
+            return retorno;
         }
 
-        public TEntity Get(int id)
+        public TEntity Get(object id)
         {
-            return null;
+            TEntity retorno = null;
+            using (var db = DatabaseUtil.CreateDBConnection())
+            {
+                retorno = db.Get<TEntity>(id);
+            }
+
+            return retorno;
+
         }
 
         public void Remove(TEntity entity)
         {
-
+            using (var db = DatabaseUtil.CreateDBConnection())
+            {
+                db.Delete<TEntity>(entity);
+            }
         }
 
         public void Update(TEntity entity)
         {
-
+            using (var db = DatabaseUtil.CreateDBConnection())
+            {
+                db.Update<TEntity>(entity);
+            }
         }
     }
 }

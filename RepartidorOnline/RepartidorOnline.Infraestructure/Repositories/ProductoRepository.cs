@@ -19,7 +19,21 @@ namespace RepartidorOnline.Infraestructure.Repositories
             var listaEntity = new List<ProductoEntity>();
             using (var db = DatabaseUtil.CreateDBConnection())
             {
-                listaEntity = db.GetList<ProductoEntity>("where EstadoRegistro = 1 and IdTienda = @IdTienda", new { IdTienda = obtenerProductosPorTiendaRequestDto.IdTienda }).ToList();
+                if (string.IsNullOrWhiteSpace(obtenerProductosPorTiendaRequestDto.NombreProducto))
+                {
+                    listaEntity = db.GetList<ProductoEntity>("where EstadoRegistro = 1 and IdTienda = @IdTienda", new { IdTienda = obtenerProductosPorTiendaRequestDto.IdTienda }).ToList();
+                }
+                else 
+                {
+                    var paramNombre = string.IsNullOrWhiteSpace(obtenerProductosPorTiendaRequestDto.NombreProducto) ? null : $"%{obtenerProductosPorTiendaRequestDto.NombreProducto.Trim()}%";
+                    listaEntity = db.GetList<ProductoEntity>("where EstadoRegistro = 1 and NombreProducto like @NombreProducto", new 
+                    { 
+                        NombreProducto = paramNombre 
+                    }).ToList();
+                }
+
+
+
             }
 
             listaProductos.AddRange(MapingProductoEntity(listaEntity));
@@ -43,7 +57,8 @@ namespace RepartidorOnline.Infraestructure.Repositories
                     Descripcion = item.Descripcion,
                     ImagenSrc = item.ImagenSrc,
                     NombreProducto = item.NombreProducto,
-                    Stock = item.Stock
+                    Stock = item.Stock,
+                    Precio = item.Precio
                 };
 
                 ListaProductos.Add(obj);

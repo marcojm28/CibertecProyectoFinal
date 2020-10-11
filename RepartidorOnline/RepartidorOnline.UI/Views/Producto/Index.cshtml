@@ -7,22 +7,58 @@
     <link href="~/Content/css/StyleProducto.min.css" rel="stylesheet" />
 </head>
 
-    <div class="content-producto">
-
-        @foreach ( var item in Model) 
-        { 
-
-        <div class="card-producto card" >
-            <div class="img-card-producto">
-                <img class="card-img-top" src="~/Content/img/@item.ImagenSrc" />
-            </div>
-            <div class="card-producto-body card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-
-        }
-
+<div class="content-producto">
+    <div class="titulo-producto">
+        <h2 class="">Productos disponibles</h2>
+        <hr class="my-1">
     </div>
 
+    <table class="table table-productos">
+
+        <thead class="thead-productos">
+            <tr>
+
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Acción</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-producto">
+
+            @foreach (var item in Model)
+            {
+
+                <tr>
+
+                    <td>@item.NombreProducto</td>
+                    <td>@item.Precio</td>
+                    <td>@item.Stock</td>
+                    <td>
+                        <div class="btn-group col-12">
+                            <button type="button" class="btnEditarProducto btn btn-warning" value="@item.IdProducto">Editar</button>
+                            <button type="button" class="btnEliminarProducto btn btn-danger" value="@item.IdProducto">Eliminar</button>
+                        </div>
+
+                    </td>
+                </tr>
+
+            }
+
+        </tbody>
+    </table>
+    <div class="btn-group content-nuevo-producto">
+        <button type="button" class="btnNuevoProducto btn btn-success">Nuevo Producto</button>
+    </div>
+
+</div>
+
+@section scripts
+    {
+
+    <script type="text/javascript">
+        $(document).ready(app.pagina.Producto.InitProducto);
+    </script>
+
+}
 

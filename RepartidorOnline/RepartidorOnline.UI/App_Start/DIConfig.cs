@@ -25,6 +25,7 @@ namespace RepartidorOnline.UI.App_Start
             container.Register<IUsuarioUseCase, UsuarioUseCase>(Lifestyle.Scoped);
             container.Register<ITiendaRepository, TiendaRepository>(Lifestyle.Scoped);
             container.Register<IProductoRepository, ProductoRepository>(Lifestyle.Scoped);
+            container.Register<IProductoUseCase, ProductoUseCase>(Lifestyle.Scoped);
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
             container.RegisterMvcIntegratedFilterProvider();
             container.Verify();

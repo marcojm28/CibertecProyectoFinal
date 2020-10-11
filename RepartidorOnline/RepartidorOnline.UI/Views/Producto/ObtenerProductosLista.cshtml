@@ -1,0 +1,20 @@
+﻿@model List<RepartidorOnline.Application.DTO.Products.ObtenerProductosPorTiendaResponseDto>
+
+@foreach (var item in Model)
+{
+
+    <tr>
+
+        <td>@item.NombreProducto</td>
+        <td>@item.Precio</td>
+        <td>@item.Stock</td>
+        <td>
+            <div class="btn-group col-12">
+                <button type="button" class="btnEditarProducto btn btn-warning" value="@item.IdProducto">Editar</button>
+                <button type="button" class="btnEliminarProducto btn btn-danger" value="@item.IdProducto">Eliminar</button>
+            </div>
+
+        </td>
+    </tr>
+
+}
