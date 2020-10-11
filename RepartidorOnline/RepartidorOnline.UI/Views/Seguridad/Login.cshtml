@@ -29,15 +29,19 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-user"></i></span>
                         </div>
-                        @Html.EditorFor(items => items.Login, new { htmlAttributes = new { @type = "text", @class = "form-control", @placeholder = "username" } })
-                        @Html.ValidationMessageFor(items => items.Login, "", new { @class = "text-danger" })
+                        <div>
+                            @Html.EditorFor(items => items.Login, new { htmlAttributes = new { @type = "text", @class = "form-control", @placeholder = "username" } })
+                            @Html.ValidationMessageFor(items => items.Login, "", new { @class = "text-danger" })
+                        </div>
                     </div>
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-key"></i></span>
                         </div>
-                        @Html.EditorFor(items => items.Password, new { htmlAttributes = new { @type = "password", @class = "form-control", @placeholder = "password" } })
-                        @Html.ValidationMessageFor(items => items.Password, "", new { @class = "text-danger" })
+                        <div>
+                            @Html.EditorFor(items => items.Password, new { htmlAttributes = new { @type = "password", @class = "form-control", @placeholder = "password" } })
+                            @Html.ValidationMessageFor(items => items.Password, "", new { @class = "text-danger" })
+                        </div>
                     </div>
                     <div class="form-group">
                         @*<input type="submit" value="Login" class="btn">*@

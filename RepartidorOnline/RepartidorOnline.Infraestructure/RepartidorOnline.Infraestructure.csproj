@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\DatabaseUtil.cs" />
+    <Compile Include="Entities\ProductoEntity.cs" />
     <Compile Include="Entities\TiendaEntity.cs" />
     <Compile Include="Entities\UsuarioEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

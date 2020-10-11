@@ -10,21 +10,26 @@ app.pagina.Login = app.pagina.Login || (function () {
 
     function CrearUsuario() {
 
+        event.preventDefault();
+
         var form = $('#frmCreateUser');
 
-        $.post(URL.CreateUser, form.serialize())
-            .done(function (response) {
-                if (response.IndicadorRespuesta == 1) {
-                    app.lib.common.CloseModal(response, "IdModalCreateUser");
-                    app.lib.common.ShowMessageSuccess(response.MensajeValidacion);
+        if (form.valid()) {
 
-            } else {
-                    app.lib.common.ShowMessageError(response.MensajeValidacion);
-            }
+            $.post(URL.CreateUser, form.serialize())
+                .done(function (response) {
+                    if (response.IndicadorRespuesta == 1) {
+                        app.lib.common.CloseModal(response, "IdModalCreateUser");
+                        app.lib.common.ShowMessageSuccess(response.MensajeValidacion);
 
-        }).fail(function (xhr, status, error) {
-            app.lib.common.ShowMessageError(xhr.responseText);
-        });
+                    } else {
+                        app.lib.common.ShowMessageError(response.MensajeValidacion);
+                    }
+
+                }).fail(function (xhr, status, error) {
+                    app.lib.common.ShowMessageError(xhr.responseText);
+                });
+        }
     }
 
     function InitApp() {
@@ -32,6 +37,7 @@ app.pagina.Login = app.pagina.Login || (function () {
     }
 
     function InitModalCreateUser() {
+        $.validator.unobtrusive.parse($("#frmCreateUser"));
         $('#btnCreateUser').on('click', CrearUsuario);
     }
 

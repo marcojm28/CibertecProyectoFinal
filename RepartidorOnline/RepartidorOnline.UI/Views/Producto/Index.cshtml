@@ -1,7 +1,28 @@
-﻿
+﻿@model List<RepartidorOnline.Application.DTO.Products.ObtenerProductosPorTiendaResponseDto>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Productos";
 }
 
-    <h2>Index @ViewBag.IdTienda</h2>
+<head>
+    <link href="~/Content/css/StyleProducto.min.css" rel="stylesheet" />
+</head>
+
+    <div class="content-producto">
+
+        @foreach ( var item in Model) 
+        { 
+
+        <div class="card-producto card" >
+            <div class="img-card-producto">
+                <img class="card-img-top" src="~/Content/img/@item.ImagenSrc" />
+            </div>
+            <div class="card-producto-body card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        }
+
+    </div>
+
 

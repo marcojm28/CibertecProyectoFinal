@@ -10,5 +10,9 @@
   {
     "outputFile": "Content/css/StyleTienda.css",
     "inputFile": "Scss/StyleTienda.scss"
+  },
+  {
+    "outputFile": "Content/css/StyleProducto.css",
+    "inputFile": "Scss/StyleProducto.scss"
   }
 ]

@@ -9,6 +9,6 @@ namespace RepartidorOnline.Application.Interfaces.Repositories
 {
     public interface IProductoRepository
     {
-        ObtenerProductosPorTiendaResponseDto ObtenerProductosPorTiendaResponse(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto);
+        List<ObtenerProductosPorTiendaResponseDto> ObtenerProductosPorTiendaResponse(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto);
     }
 }

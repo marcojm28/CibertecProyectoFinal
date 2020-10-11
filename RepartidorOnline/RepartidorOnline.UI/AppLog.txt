@@ -2467,3 +2467,265 @@ Nombre del parámetro: parameters
 2020-10-07 17:06:18,244 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 07/10/2020 05:06:18 p. m.
 2020-10-07 17:06:21,388 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 07/10/2020 05:06:21 p. m.
 2020-10-07 17:06:21,388 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 07/10/2020 05:06:21 p. m.
+2020-10-09 18:30:50,880 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:30:50 p. m.
+2020-10-09 18:30:51,278 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:30:51 p. m.
+2020-10-09 18:32:57,786 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:32:57 p. m.
+2020-10-09 18:32:57,794 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:32:57 p. m.
+2020-10-09 18:33:00,211 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:00 p. m.
+2020-10-09 18:33:00,212 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:00 p. m.
+2020-10-09 18:33:01,604 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:01 p. m.
+2020-10-09 18:33:01,605 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:01 p. m.
+2020-10-09 18:33:05,551 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:05 p. m.
+2020-10-09 18:33:05,552 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:05 p. m.
+2020-10-09 18:33:08,396 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:08 p. m.
+2020-10-09 18:33:08,398 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:08 p. m.
+2020-10-09 18:33:13,495 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:13 p. m.
+2020-10-09 18:33:13,496 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:13 p. m.
+2020-10-09 18:33:20,921 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:20 p. m.
+2020-10-09 18:33:20,923 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:20 p. m.
+2020-10-09 18:33:33,572 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:33:33 p. m.
+2020-10-09 18:33:33,573 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:33:33 p. m.
+2020-10-09 18:33:57,744 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:33:57 p. m.
+2020-10-09 18:33:57,746 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:33:57 p. m.
+2020-10-09 18:34:00,214 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 06:34:00 p. m.
+2020-10-09 18:34:00,229 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 06:34:00 p. m.
+2020-10-09 18:34:07,657 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:34:07 p. m.
+2020-10-09 18:34:07,658 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:34:07 p. m.
+2020-10-09 18:34:09,232 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:34:09 p. m.
+2020-10-09 18:34:09,232 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:34:09 p. m.
+2020-10-09 18:34:15,472 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:34:15 p. m.
+2020-10-09 18:34:15,474 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:34:15 p. m.
+2020-10-09 18:35:50,799 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:35:50 p. m.
+2020-10-09 18:35:50,800 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:35:50 p. m.
+2020-10-09 18:35:57,213 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:35:57 p. m.
+2020-10-09 18:35:57,216 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:35:57 p. m.
+2020-10-09 18:35:58,142 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 06:35:58 p. m.
+2020-10-09 18:35:58,147 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 06:35:58 p. m.
+2020-10-09 18:36:30,570 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:36:30 p. m.
+2020-10-09 18:36:41,760 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:36:41 p. m.
+2020-10-09 18:36:41,811 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:36:41 p. m.
+2020-10-09 18:36:42,574 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de inicio: 09/10/2020 06:36:42 p. m.
+2020-10-09 18:36:42,575 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:36:42 p. m.
+2020-10-09 18:36:44,329 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: BuscarTiendas,Hora de fin: 09/10/2020 06:36:44 p. m.
+2020-10-09 18:36:51,108 [17] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 06:36:51 p. m.
+2020-10-09 18:36:51,109 [17] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 06:36:51 p. m.
+2020-10-09 18:38:51,744 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:38:51 p. m.
+2020-10-09 18:38:51,982 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:38:51 p. m.
+2020-10-09 18:39:42,380 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 06:39:42 p. m.
+2020-10-09 18:39:52,638 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 06:39:52 p. m.
+2020-10-09 18:39:52,721 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:39:52 p. m.
+2020-10-09 18:39:52,721 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:39:52 p. m.
+2020-10-09 18:40:08,645 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:40:08 p. m.
+2020-10-09 18:40:08,659 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:40:08 p. m.
+2020-10-09 18:40:08,692 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 06:40:08 p. m.
+2020-10-09 18:40:08,704 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 06:40:08 p. m.
+2020-10-09 18:40:13,843 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Logout,Hora de inicio: 09/10/2020 06:40:13 p. m.
+2020-10-09 18:40:13,845 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Logout,Hora de fin: 09/10/2020 06:40:13 p. m.
+2020-10-09 18:40:13,859 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:40:13 p. m.
+2020-10-09 18:40:13,860 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:40:13 p. m.
+2020-10-09 18:42:00,971 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 06:42:00 p. m.
+2020-10-09 18:42:00,971 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 06:42:00 p. m.
+2020-10-09 18:42:00,984 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:42:00 p. m.
+2020-10-09 18:42:00,984 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:42:00 p. m.
+2020-10-09 18:42:04,618 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:42:04 p. m.
+2020-10-09 18:42:04,618 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:42:04 p. m.
+2020-10-09 18:42:15,172 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:42:15 p. m.
+2020-10-09 18:42:15,197 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:42:15 p. m.
+2020-10-09 18:42:15,217 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:42:15 p. m.
+2020-10-09 18:42:15,229 [9] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:42:15 p. m.
+2020-10-09 18:42:26,457 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 06:42:26 p. m.
+2020-10-09 18:42:26,457 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 06:42:26 p. m.
+2020-10-09 18:42:26,468 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 06:42:26 p. m.
+2020-10-09 18:42:46,563 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 06:42:46 p. m.
+2020-10-09 18:56:17,855 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 06:56:17 p. m.
+2020-10-09 18:56:18,073 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 06:56:18 p. m.
+2020-10-09 18:56:37,820 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 06:56:37 p. m.
+2020-10-09 18:56:37,821 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 06:56:37 p. m.
+2020-10-09 18:56:37,862 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:56:37 p. m.
+2020-10-09 18:56:37,862 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:56:37 p. m.
+2020-10-09 18:56:49,451 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 06:56:49 p. m.
+2020-10-09 18:56:49,467 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 06:56:49 p. m.
+2020-10-09 18:56:49,492 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 06:56:49 p. m.
+2020-10-09 18:56:58,145 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 06:56:58 p. m.
+2020-10-09 19:13:10,235 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 07:13:10 p. m.
+2020-10-09 19:13:10,262 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 07:13:10 p. m.
+2020-10-09 19:13:57,003 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 07:13:57 p. m.
+2020-10-09 19:13:57,209 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 07:13:57 p. m.
+2020-10-09 19:14:02,754 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 07:14:02 p. m.
+2020-10-09 19:14:02,760 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 07:14:02 p. m.
+2020-10-09 19:14:02,792 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:14:02 p. m.
+2020-10-09 19:14:02,793 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:14:02 p. m.
+2020-10-09 19:14:02,795 [8] ERROR RepartidorOnline.UI.Filters.HandleCustomError System.ArgumentException: The parameters dictionary contains a null entry for parameter 'IdTienda' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index(Int32)' in 'RepartidorOnline.UI.Controllers.ProductoController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nombre del parámetro: parameters
+   en System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_0.<InvokeActionMethodFilterAsynchronouslyRecursive>b__0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2020-10-09 19:14:07,188 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 07:14:07 p. m.
+2020-10-09 19:14:07,279 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 07:14:07 p. m.
+2020-10-09 19:14:09,643 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 07:14:09 p. m.
+2020-10-09 19:14:09,644 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 07:14:09 p. m.
+2020-10-09 19:14:09,659 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:14:09 p. m.
+2020-10-09 19:14:14,096 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:14:14 p. m.
+2020-10-09 19:14:34,819 [7] ERROR RepartidorOnline.UI.Filters.HandleCustomError System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en ASP._Page_Views_Producto_Index_cshtml.Execute() en D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\Views\Producto\Index.cshtml:línea 3
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   en System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   en System.Web.WebPages.StartPage.RunPage()
+   en System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   en System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2020-10-09 19:14:38,956 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 07:14:38 p. m.
+2020-10-09 19:14:38,958 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 07:14:38 p. m.
+2020-10-09 19:14:40,526 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 07:14:40 p. m.
+2020-10-09 19:14:40,526 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 07:14:40 p. m.
+2020-10-09 19:14:40,540 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:14:40 p. m.
+2020-10-09 19:17:41,837 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:17:41 p. m.
+2020-10-09 19:17:41,899 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:17:41 p. m.
+2020-10-09 19:17:41,905 [6] ERROR RepartidorOnline.UI.Filters.HandleCustomError System.ArgumentException: The parameters dictionary contains a null entry for parameter 'IdTienda' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index(Int32)' in 'RepartidorOnline.UI.Controllers.ProductoController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nombre del parámetro: parameters
+   en System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_0.<InvokeActionMethodFilterAsynchronouslyRecursive>b__0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2020-10-09 19:19:15,737 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 07:19:15 p. m.
+2020-10-09 19:19:15,886 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 07:19:15 p. m.
+2020-10-09 19:19:18,691 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 07:19:18 p. m.
+2020-10-09 19:19:18,694 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 07:19:18 p. m.
+2020-10-09 19:19:20,733 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 07:19:20 p. m.
+2020-10-09 19:19:20,735 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 07:19:20 p. m.
+2020-10-09 19:19:20,752 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:19:20 p. m.
+2020-10-09 19:19:38,580 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:19:38 p. m.
+2020-10-09 19:35:09,495 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 07:35:09 p. m.
+2020-10-09 19:35:09,837 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 07:35:09 p. m.
+2020-10-09 19:35:17,108 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 07:35:17 p. m.
+2020-10-09 19:35:17,109 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 07:35:17 p. m.
+2020-10-09 19:35:17,166 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 07:35:17 p. m.
+2020-10-09 19:35:17,167 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 07:35:17 p. m.
+2020-10-09 19:35:23,553 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 09/10/2020 07:35:23 p. m.
+2020-10-09 19:35:23,582 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 09/10/2020 07:35:23 p. m.
+2020-10-09 19:35:23,622 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:35:23 p. m.
+2020-10-09 19:35:27,609 [8] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:35:27 p. m.
+2020-10-09 19:37:02,730 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:37:02 p. m.
+2020-10-09 19:37:02,763 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:37:02 p. m.
+2020-10-09 19:37:02,765 [5] ERROR RepartidorOnline.UI.Filters.HandleCustomError System.ArgumentException: The parameters dictionary contains a null entry for parameter 'IdTienda' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index(Int32)' in 'RepartidorOnline.UI.Controllers.ProductoController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nombre del parámetro: parameters
+   en System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_0.<InvokeActionMethodFilterAsynchronouslyRecursive>b__0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2020-10-09 19:37:27,300 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:37:27 p. m.
+2020-10-09 19:37:27,301 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:37:27 p. m.
+2020-10-09 19:37:27,301 [5] ERROR RepartidorOnline.UI.Filters.HandleCustomError System.ArgumentException: The parameters dictionary contains a null entry for parameter 'IdTienda' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index(Int32)' in 'RepartidorOnline.UI.Controllers.ProductoController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nombre del parámetro: parameters
+   en System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_0.<InvokeActionMethodFilterAsynchronouslyRecursive>b__0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_2.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2020-10-09 19:37:33,298 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 09/10/2020 07:37:33 p. m.
+2020-10-09 19:37:33,480 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 09/10/2020 07:37:33 p. m.
+2020-10-09 19:37:36,062 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 09/10/2020 07:37:36 p. m.
+2020-10-09 19:37:36,062 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 09/10/2020 07:37:36 p. m.
+2020-10-09 19:37:36,078 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:37:36 p. m.
+2020-10-09 19:37:43,438 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:37:43 p. m.
+2020-10-09 19:38:06,147 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:38:06 p. m.
+2020-10-09 19:38:06,152 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:38:06 p. m.
+2020-10-09 19:38:55,985 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:38:55 p. m.
+2020-10-09 19:38:55,989 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:38:55 p. m.
+2020-10-09 19:40:06,471 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 09/10/2020 07:40:06 p. m.
+2020-10-09 19:40:06,475 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 09/10/2020 07:40:06 p. m.
+2020-10-10 09:52:04,307 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 10/10/2020 09:52:04 a. m.
+2020-10-10 09:52:04,602 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 10/10/2020 09:52:04 a. m.
+2020-10-10 09:52:52,762 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:52:52 a. m.
+2020-10-10 09:52:52,763 [5] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:52:52 a. m.
+2020-10-10 09:55:17,808 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:55:17 a. m.
+2020-10-10 09:55:17,808 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:55:17 a. m.
+2020-10-10 09:55:47,970 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:55:47 a. m.
+2020-10-10 09:55:48,000 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:55:48 a. m.
+2020-10-10 09:55:48,060 [10] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 10/10/2020 09:55:48 a. m.
+2020-10-10 09:55:48,061 [10] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 10/10/2020 09:55:48 a. m.
+2020-10-10 09:55:54,252 [10] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Logout,Hora de inicio: 10/10/2020 09:55:54 a. m.
+2020-10-10 09:55:54,256 [10] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Logout,Hora de fin: 10/10/2020 09:55:54 a. m.
+2020-10-10 09:55:54,273 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 10/10/2020 09:55:54 a. m.
+2020-10-10 09:55:54,274 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 10/10/2020 09:55:54 a. m.
+2020-10-10 09:55:56,665 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:55:56 a. m.
+2020-10-10 09:55:56,665 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:55:56 a. m.
+2020-10-10 09:56:01,815 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:56:01 a. m.
+2020-10-10 09:56:01,817 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:56:01 a. m.
+2020-10-10 09:56:01,829 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 10/10/2020 09:56:01 a. m.
+2020-10-10 09:56:01,829 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 10/10/2020 09:56:01 a. m.
+2020-10-10 09:56:05,806 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de inicio: 10/10/2020 09:56:05 a. m.
+2020-10-10 09:56:05,807 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: ProductosPorTienda,Hora de fin: 10/10/2020 09:56:05 a. m.
+2020-10-10 09:56:05,848 [10] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Producto, Action: Index,Hora de inicio: 10/10/2020 09:56:05 a. m.
+2020-10-10 09:56:05,872 [10] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Producto, Action: Index,Hora de fin: 10/10/2020 09:56:05 a. m.
+2020-10-10 09:56:11,843 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Logout,Hora de inicio: 10/10/2020 09:56:11 a. m.
+2020-10-10 09:56:11,843 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Logout,Hora de fin: 10/10/2020 09:56:11 a. m.
+2020-10-10 09:56:11,855 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Tienda, Action: Index,Hora de inicio: 10/10/2020 09:56:11 a. m.
+2020-10-10 09:56:11,856 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Tienda, Action: Index,Hora de fin: 10/10/2020 09:56:11 a. m.
+2020-10-10 09:56:13,034 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:56:13 a. m.
+2020-10-10 09:56:13,034 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:56:13 a. m.
+2020-10-10 09:56:14,254 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: CreateUser,Hora de inicio: 10/10/2020 09:56:14 a. m.
+2020-10-10 09:56:14,256 [7] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: CreateUser,Hora de fin: 10/10/2020 09:56:14 a. m.
+2020-10-10 09:56:16,239 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: CreateUser,Hora de inicio: 10/10/2020 09:56:16 a. m.
+2020-10-10 09:56:16,240 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: CreateUser,Hora de fin: 10/10/2020 09:56:16 a. m.
+2020-10-10 09:59:02,286 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: Login,Hora de inicio: 10/10/2020 09:59:02 a. m.
+2020-10-10 09:59:02,286 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: Login,Hora de fin: 10/10/2020 09:59:02 a. m.
+2020-10-10 09:59:04,213 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Iniciando la ejecución del controlador: Seguridad, Action: CreateUser,Hora de inicio: 10/10/2020 09:59:04 a. m.
+2020-10-10 09:59:04,213 [6] INFO  RepartidorOnline.UI.Filters.LogginFilterAttribute Finalizando la ejecución del controlador: Seguridad, Action: CreateUser,Hora de fin: 10/10/2020 09:59:04 a. m.

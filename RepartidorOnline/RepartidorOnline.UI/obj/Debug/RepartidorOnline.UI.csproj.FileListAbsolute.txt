@@ -79,6 +79,7 @@ D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\R
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\System.Web.WebPages.Razor.dll
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\WebGrease.dll
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\RepartidorOnline.Domain.dll
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.SimpleCRUD.dll
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.dll
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\RepartidorOnline.Application.DTO.pdb
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\RepartidorOnline.Application.Interfaces.pdb
@@ -106,12 +107,11 @@ D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\R
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Antlr3.Runtime.pdb
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\RepartidorOnline.Domain.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.SimpleCRUD.pdb
+D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.SimpleCRUD.xml
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.xml
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\obj\Debug\RepartidorOnline.UI.csprojAssemblyReference.cache
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\obj\Debug\RepartidorOnline.UI.csproj.CoreCompileInputs.cache
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\obj\Debug\RepartidorOnline.UI.csproj.CopyComplete
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\obj\Debug\RepartidorOnline.UI.dll
 D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\obj\Debug\RepartidorOnline.UI.pdb
-D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.SimpleCRUD.dll
-D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.SimpleCRUD.pdb
-D:\mjuarezm\CursoCibertec\PROYECTOFINAL\CibertecProyectoFinal\RepartidorOnline\RepartidorOnline.UI\bin\Dapper.SimpleCRUD.xml
