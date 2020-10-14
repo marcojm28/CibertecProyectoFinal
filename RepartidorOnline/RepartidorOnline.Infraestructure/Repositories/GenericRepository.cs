@@ -36,6 +36,17 @@ namespace RepartidorOnline.Infraestructure.Repositories
 
         }
 
+        public List<TEntity> GetList()
+        {
+            List<TEntity> retorno = new List<TEntity>();
+            using (var db = DatabaseUtil.CreateDBConnection())
+            {
+                retorno = db.GetList<TEntity>().ToList();
+            }
+
+            return retorno;
+        }
+
         public void Remove(TEntity entity)
         {
             using (var db = DatabaseUtil.CreateDBConnection())

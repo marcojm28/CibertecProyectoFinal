@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace RepartidorOnline.Domain.Users
 {
     public class Usuario
     {
+        [Key]
         public int IdUsuario { get; set; }
         public int IdRol { get; set; }
         public string NombreUsuario { get; set; }

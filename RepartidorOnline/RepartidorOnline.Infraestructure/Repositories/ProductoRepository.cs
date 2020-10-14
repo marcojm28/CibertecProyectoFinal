@@ -13,7 +13,7 @@ namespace RepartidorOnline.Infraestructure.Repositories
 {
     public class ProductoRepository : IProductoRepository
     {
-        public List<ObtenerProductosPorTiendaResponseDto> ObtenerProductosPorTiendaResponse(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
+        public List<ObtenerProductosPorTiendaResponseDto> ObtenerProductosPorTienda(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
         {
             var listaProductos = new List<ObtenerProductosPorTiendaResponseDto>();
             var listaEntity = new List<ProductoEntity>();
@@ -21,7 +21,14 @@ namespace RepartidorOnline.Infraestructure.Repositories
             {
                 if (string.IsNullOrWhiteSpace(obtenerProductosPorTiendaRequestDto.NombreProducto))
                 {
-                    listaEntity = db.GetList<ProductoEntity>("where EstadoRegistro = 1 and IdTienda = @IdTienda", new { IdTienda = obtenerProductosPorTiendaRequestDto.IdTienda }).ToList();
+                    if (obtenerProductosPorTiendaRequestDto.IdTienda == 0)
+                    {
+                        listaEntity = db.GetList<ProductoEntity>("where EstadoRegistro = 1").ToList();
+                    }
+                    else {
+                        listaEntity = db.GetList<ProductoEntity>("where EstadoRegistro = 1 and IdTienda = @IdTienda", new { IdTienda = obtenerProductosPorTiendaRequestDto.IdTienda }).ToList();
+                    }
+                    
                 }
                 else 
                 {

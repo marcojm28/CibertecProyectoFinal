@@ -47,6 +47,7 @@
     <Compile Include="Repositories\ITiendaRepository.cs" />
     <Compile Include="Repositories\IUsuarioRepository.cs" />
     <Compile Include="UseCases\IProductoUseCase.cs" />
+    <Compile Include="UseCases\ITiendaUseCase.cs" />
     <Compile Include="UseCases\IUsuarioUseCase.cs" />
   </ItemGroup>
   <ItemGroup>

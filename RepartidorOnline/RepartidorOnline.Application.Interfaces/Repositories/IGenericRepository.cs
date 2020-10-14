@@ -13,5 +13,6 @@ namespace RepartidorOnline.Application.Interfaces.Repositories
         void Update(TEntity entity);
         void Remove(TEntity entity);
         TEntity Get(object id);
+        List<TEntity> GetList();
     }
 }

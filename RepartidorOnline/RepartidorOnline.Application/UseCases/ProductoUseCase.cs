@@ -1,6 +1,7 @@
 ﻿using RepartidorOnline.Application.DTO.Products;
 using RepartidorOnline.Application.Interfaces.Repositories;
 using RepartidorOnline.Application.Interfaces.UseCases;
+using RepartidorOnline.Domain.Products;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +19,25 @@ namespace RepartidorOnline.Application.UseCases
             this._productoRepository = productoRepository;
         }
 
-        public List<ObtenerProductosPorTiendaResponseDto> ObtenerProductosPorTiendaResponse(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
+        public List<Producto> ObtenerProductosPorTienda(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
         {
-            var response = new List<ObtenerProductosPorTiendaResponseDto>();
+            var response = new List<Producto>();
+            var responseRepository = new List<ObtenerProductosPorTiendaResponseDto>();
 
-            response = _productoRepository.ObtenerProductosPorTiendaResponse(obtenerProductosPorTiendaRequestDto);
+            responseRepository = _productoRepository.ObtenerProductosPorTienda(obtenerProductosPorTiendaRequestDto);
+
+            foreach (var item in responseRepository) 
+            {
+                response.Add(new Producto() {
+                    Descripcion= item.Descripcion,
+                    IdProducto = item.IdProducto,
+                    IdTienda = item.IdTienda,
+                    ImagenSrc = item.ImagenSrc,
+                    NombreProducto = item.NombreProducto,
+                    Precio = item.Precio,
+                    Stock = item.Stock
+                });
+            }
 
             return response;
         }

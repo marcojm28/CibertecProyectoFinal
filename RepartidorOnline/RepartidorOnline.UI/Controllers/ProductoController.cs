@@ -1,6 +1,8 @@
 ﻿using RepartidorOnline.Application.DTO.Products;
 using RepartidorOnline.Application.Interfaces.Repositories;
 using RepartidorOnline.Application.Interfaces.UseCases;
+using RepartidorOnline.Domain.Products;
+using RepartidorOnline.UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,11 +15,13 @@ namespace RepartidorOnline.UI.Controllers
     {
         private readonly IProductoRepository _productoRepository;
         private readonly IProductoUseCase _productoUseCase;
+        private readonly ITiendaUseCase _tiendaUseCase;
 
-        public ProductoController(IProductoRepository productoRepository, IProductoUseCase productoUseCase) 
+        public ProductoController(IProductoRepository productoRepository, IProductoUseCase productoUseCase, ITiendaUseCase tiendaUseCase) 
         {
             this._productoRepository = productoRepository;
             this._productoUseCase = productoUseCase;
+            this._tiendaUseCase = tiendaUseCase;
         }
 
         [Authorize]
@@ -25,23 +29,33 @@ namespace RepartidorOnline.UI.Controllers
         {
             ViewBag.IdTienda = IdTienda;
 
-            var lista = new List<ObtenerProductosPorTiendaResponseDto>();
+            var lista = new List<Producto>();
 
-            lista = _productoUseCase.ObtenerProductosPorTiendaResponse(new ObtenerProductosPorTiendaRequestDto { IdTienda = IdTienda });
+            lista = _productoUseCase.ObtenerProductosPorTienda(new ObtenerProductosPorTiendaRequestDto { IdTienda = IdTienda });
 
             return View(lista);
         }
 
         public ActionResult ObtenerProductosLista(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
         {
+            var Tiendas = _tiendaUseCase.GetList();
 
-            var lista = new List<ObtenerProductosPorTiendaResponseDto>();
+            var lista = new List<Producto>();
 
-            lista = _productoUseCase.ObtenerProductosPorTiendaResponse(new ObtenerProductosPorTiendaRequestDto { 
+            lista = _productoUseCase.ObtenerProductosPorTienda(new ObtenerProductosPorTiendaRequestDto { 
                 NombreProducto = obtenerProductosPorTiendaRequestDto.NombreProducto
             });
 
             return PartialView(lista);
+        }
+
+        [HttpGet]
+        public ActionResult NuevoProducto() 
+        {
+            var model = new CreateProductoViewModel();
+            model.tiendas = _tiendaUseCase.GetList();
+
+            return PartialView(model);
         }
 
     }

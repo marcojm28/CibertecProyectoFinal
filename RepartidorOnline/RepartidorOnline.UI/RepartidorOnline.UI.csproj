@@ -170,6 +170,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\SecurityHelpers.cs" />
+    <Compile Include="Models\CreateProductoViewModel.cs" />
     <Compile Include="Models\CreateUserViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\ProductoViewModel.cs" />
@@ -448,6 +449,7 @@
     <Content Include="Views\Producto\Index.cshtml" />
     <Content Include="Scss\StyleProducto.scss" />
     <Content Include="Views\Producto\ObtenerProductosLista.cshtml" />
+    <Content Include="Views\Producto\NuevoProducto.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -475,6 +477,10 @@
     <ProjectReference Include="..\RepartidorOnline.Application\RepartidorOnline.Application.csproj">
       <Project>{69173DD4-E745-4545-AF8E-FE8211D2F0B4}</Project>
       <Name>RepartidorOnline.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RepartidorOnline.Domain\RepartidorOnline.Domain.csproj">
+      <Project>{148DF964-17B5-4FC1-935B-B595C4BEA718}</Project>
+      <Name>RepartidorOnline.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\RepartidorOnline.Infraestructure\RepartidorOnline.Infraestructure.csproj">
       <Project>{1A072FAA-497A-47E8-BCCE-85AB6A374B87}</Project>
