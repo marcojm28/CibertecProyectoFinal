@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using RepartidorOnline.Application.DTO.Products;
 using RepartidorOnline.Application.Interfaces.Repositories;
+using RepartidorOnline.Domain.Products;
 using RepartidorOnline.Infraestructure.Database;
 using RepartidorOnline.Infraestructure.Entities;
 using System;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace RepartidorOnline.Infraestructure.Repositories
 {
-    public class ProductoRepository : IProductoRepository
+    public class ProductoRepository : GenericRepository<Producto>,IProductoRepository
     {
         public List<ObtenerProductosPorTiendaResponseDto> ObtenerProductosPorTienda(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
         {

@@ -19,6 +19,16 @@ namespace RepartidorOnline.Application.UseCases
             this._productoRepository = productoRepository;
         }
 
+        public int Add(Producto entity) 
+        {
+            return _productoRepository.Add<int>(entity);
+        }
+
+        public void Remove(Producto entity) 
+        {
+            _productoRepository.Remove(entity);
+        }
+
         public List<Producto> ObtenerProductosPorTienda(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto)
         {
             var response = new List<Producto>();

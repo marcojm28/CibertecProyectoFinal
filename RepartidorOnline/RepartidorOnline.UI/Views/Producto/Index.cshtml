@@ -36,8 +36,8 @@
                     <td>@item.Stock</td>
                     <td>
                         <div class="btn-group col-12">
-                            <button type="button" class="btnEditarProducto btn btn-warning" value="@item.IdProducto">Editar</button>
-                            <button type="button" class="btnEliminarProducto btn btn-danger" value="@item.IdProducto">Eliminar</button>
+                            <button type="button" class="btnEditarProductoPrincipal btn btn-warning" value="@item.IdProducto">Editar</button>
+                            <button type="button" class="btnEliminarProductoPrincipal btn btn-danger" value="@item.IdProducto">Eliminar</button>
                         </div>
 
                     </td>
@@ -48,7 +48,7 @@
         </tbody>
     </table>
     <div class="btn-group content-nuevo-producto">
-        <button type="button" class="btnNuevoProducto btn btn-success">Nuevo Producto</button>
+        <button type="button" id="btnNuevoProducto" class="btn btn-success">Nuevo Producto</button>
     </div>
 
 </div>
@@ -57,7 +57,7 @@
     {
 
     <script type="text/javascript">
-        $(document).ready(app.pagina.Producto.InitProducto);
+        $(document).ready(app.pagina.Producto.InitProductoPrincipal);
     </script>
 
 }

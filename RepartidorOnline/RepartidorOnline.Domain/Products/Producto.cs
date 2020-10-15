@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace RepartidorOnline.Domain.Products
 {
+    [Table("Producto")]
     public class Producto
     {
         [Key]
@@ -14,8 +15,10 @@ namespace RepartidorOnline.Domain.Products
         public int IdTienda { get; set; }
         public string NombreProducto { get; set; }
         public string Descripcion { get; set; }
-        public int Stock { get; set; }
         public decimal Precio { get; set; }
+        public int Stock { get; set; }
         public string ImagenSrc { get; set; }
+        public int EstadoRegistro { get; set; }
+
     }
 }

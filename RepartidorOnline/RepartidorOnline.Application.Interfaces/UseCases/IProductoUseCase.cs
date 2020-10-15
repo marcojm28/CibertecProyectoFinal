@@ -11,5 +11,7 @@ namespace RepartidorOnline.Application.Interfaces.UseCases
     public interface IProductoUseCase
     {
         List<Producto> ObtenerProductosPorTienda(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto);
+        int Add(Producto entity);
+        void Remove(Producto entity);
     }
 }

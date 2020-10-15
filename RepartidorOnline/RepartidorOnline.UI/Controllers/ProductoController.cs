@@ -58,5 +58,31 @@ namespace RepartidorOnline.UI.Controllers
             return PartialView(model);
         }
 
+        [HttpPost]
+        public ActionResult NuevoProducto(CreateProductoViewModel createProductoViewModel)
+        {
+            var response = _productoUseCase.Add(new Producto() {
+                Descripcion = createProductoViewModel.Descripcion,
+                IdProducto = createProductoViewModel.IdProducto,
+                IdTienda = createProductoViewModel.IdTienda,
+                NombreProducto = createProductoViewModel.NombreProducto,
+                Precio = createProductoViewModel.Precio,
+                Stock = createProductoViewModel.Stock,
+                EstadoRegistro = 1
+            });
+
+            return Json(response);
+        }
+
+        [HttpPost]
+        public ActionResult EliminarProducto(int IdProducto)
+        {
+            _productoUseCase.Remove(new Producto() { 
+                IdProducto = IdProducto
+            });
+
+            return Json(true);
+        }
+
     }
 }
