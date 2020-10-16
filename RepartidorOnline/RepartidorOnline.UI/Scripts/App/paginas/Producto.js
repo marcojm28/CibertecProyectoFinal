@@ -2,7 +2,12 @@
 
 app.pagina.Producto = app.pagina.Producto || (function () {
 
-    var URL = { ObtenerProductosLista: '/Producto/ObtenerProductosLista', NuevoProducto: '/Producto/NuevoProducto', EliminarProducto:'/Producto/EliminarProducto' }
+    var URL = {
+        ObtenerProductosLista: '/Producto/ObtenerProductosLista',
+        NuevoProducto: '/Producto/NuevoProducto',
+        EliminarProducto: '/Producto/EliminarProducto',
+        EditarProducto: '/Producto/ActualizarProducto'
+    }
 
     function buscarProducto() {
         var nombreProducto = $('#idTxtBusqueda').val();
@@ -16,12 +21,7 @@ app.pagina.Producto = app.pagina.Producto || (function () {
 
     }
 
-    function nuevoProductoModal()
-    {
-        app.lib.common.ShowModal("Nuevo Producto", URL.NuevoProducto, RespuestaCrearProducto, "IdModalProductoNuevo");
-    }
-
-    function nuevoProducto()
+     function nuevoProducto()
     {
         event.preventDefault();
 
@@ -63,7 +63,46 @@ app.pagina.Producto = app.pagina.Producto || (function () {
             });
     }
 
+    function EditarProducto() {
+        event.preventDefault();
+
+        var form = $('#frmUpdateProduct');
+
+        if (form.valid()) {
+
+            $.post(URL.EditarProducto, form.serialize())
+                .done(function (response) {
+                    if (response) {
+                        app.lib.common.CloseModal(response, "IdModalEditarProducto");
+                        app.lib.common.ShowMessageSuccess("Los datos se actualizaron correctamente");
+
+                    } else {
+                        app.lib.common.ShowMessageError("Error al editar producto");
+                    }
+
+                })
+                .fail(function (xhr, status, error) {
+                    app.lib.common.ShowMessageError(xhr.responseText);
+                });
+        }
+    }
+
+    function nuevoProductoModal() {
+        app.lib.common.ShowModal("Nuevo Producto", URL.NuevoProducto, RespuestaCrearProducto, "IdModalProductoNuevo");
+    }
+
+    function EditarProductoModal()
+    {
+        var productoId = $(this).val();
+
+        app.lib.common.ShowModal("Editar Producto", URL.EditarProducto + '?IdProducto=' + productoId, RespuestaEditarProducto, "IdModalEditarProducto");
+    }
+
     function RespuestaCrearProducto() {
+        buscarProducto();
+    }
+
+    function RespuestaEditarProducto() {
         buscarProducto();
     }
 
@@ -71,24 +110,32 @@ app.pagina.Producto = app.pagina.Producto || (function () {
         $('#btnBuscarMain').on('click', buscarProducto);
         $('#btnNuevoProducto').on('click', nuevoProductoModal);
         $('.btnEliminarProductoPrincipal').on('click', EliminarProducto);
+        $('.btnEditarProductoPrincipal').on('click', EditarProductoModal);
         
     }
 
-    function InitProductoModal()
+    function InitProductoCreateModal()
     {
         $.validator.unobtrusive.parse($("#frmCreateProduct"));
         $('#btnConfirmarCrearProducto').on('click', nuevoProducto);
     }
 
+    function InitProductoUpdateModal() {
+        $.validator.unobtrusive.parse($("#frmUpdateProduct"));
+        $('#btnConfirmarEditarProducto').on('click', EditarProducto);
+    }
+
     function InitProducto()
     {
         $('.btnEliminarProducto').on('click', EliminarProducto);
+        $('.btnEditarProducto').on('click', EditarProductoModal);
     }
 
 
     return {
         InitProductoPrincipal: InitProductoPrincipal,
-        InitProductoModal: InitProductoModal,
-        InitProducto: InitProducto
+        InitProductoCreateModal: InitProductoCreateModal,
+        InitProducto: InitProducto,
+        InitProductoUpdateModal: InitProductoUpdateModal
     }
 })();

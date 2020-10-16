@@ -13,5 +13,7 @@ namespace RepartidorOnline.Application.Interfaces.UseCases
         List<Producto> ObtenerProductosPorTienda(ObtenerProductosPorTiendaRequestDto obtenerProductosPorTiendaRequestDto);
         int Add(Producto entity);
         void Remove(Producto entity);
+        Producto Get(int IdProducto);
+        void Update(Producto producto);
     }
 }

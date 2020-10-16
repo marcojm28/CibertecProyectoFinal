@@ -7,7 +7,7 @@ using System.Web;
 
 namespace RepartidorOnline.UI.Models
 {
-    public class CreateProductoViewModel
+    public class UpdateProductoViewModel
     {
         [Key]
         public int IdProducto { get; set; }
@@ -28,7 +28,7 @@ namespace RepartidorOnline.UI.Models
         [Range(1, 5000, ErrorMessage = "Valor fuera del rango")]
         public int Stock { get; set; }
 
-        [Required(ErrorMessage ="Campo precio es requerido")]
+        [Required(ErrorMessage = "Campo precio es requerido")]
         [Range(1, 50000, ErrorMessage = "Valor fuera del rango")]
         public decimal Precio { get; set; }
 
